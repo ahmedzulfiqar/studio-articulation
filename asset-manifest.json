@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/studio-articulation/static/css/main.aa828401.css",
+    "main.js": "/studio-articulation/static/js/main.fb1277e5.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/studio-articulation/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/1.png": "/studio-articulation/static/media/1.a66266839824f4e021ea.png",
+    "index.html": "/studio-articulation/index.html",
+    "main.aa828401.css.map": "/studio-articulation/static/css/main.aa828401.css.map",
+    "main.fb1277e5.js.map": "/studio-articulation/static/js/main.fb1277e5.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/studio-articulation/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa828401.css",
+    "static/js/main.fb1277e5.js"
+  ]
+}
