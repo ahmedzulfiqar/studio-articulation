@@ -1,0 +1,18 @@
+* {
+  --purple: #9a40ff;
+  --orange: #f89e52;
+  --blue: #2b78f3;
+  --red: #f76766;
+  --green: #57c0ce;
+  --black: #212121;
+  --time: 0.5s ease;
+}
+
+.LinkItem {
+  cursor: pointer;
+  transition: var(--time);
+  color: var(--black) !important;
+}
+.LinkItem:hover {
+  color: var(--purple) !important;
+}

@@ -1,0 +1,86 @@
+* {
+  text-decoration: none !important;
+  list-style: none !important;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px !important;
+}
+a {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+*:focus,
+*:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+* {
+  --purple: #9a40ff;
+  --orange: #f89e52;
+  --blue: #2b78f3;
+  --red: #f76766;
+  --green: #57c0ce;
+  --black: #212121;
+  --time: 0.2s ease;
+}
+body {
+  background-image: url(https://wallpapertag.com/wallpaper/full/b/1/4/403830-cool-white-background-2000x1333-htc.jpg);
+}
+
+/* bg */
+.bg-purple {
+  background-color: var(--purple);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.bg-black {
+  background-color: var(--black);
+}
+/* text */
+.text-purple {
+  color: var(--purple);
+}
+.text-orange {
+  color: var(--orange);
+}
+.text-blue {
+  color: var(--blue);
+}
+.text-red {
+  color: var(--red);
+}
+.text-green {
+  color: var(--green);
+}
+.text-black {
+  color: var(--black);
+}
+/* border */
+.border-purple {
+  border: 1.5px solid var(--purple);
+}
+.border-orange {
+  border: 1.5px solid var(--orange);
+}
+.border-blue {
+  border: 1.5px solid var(--blue);
+}
+.border-red {
+  border: 1.5px solid var(--red);
+}
+.border-green {
+  border: 1.5px solid var(--green);
+}
+.border-black {
+  border: 1.5px solid var(--black);
+}
