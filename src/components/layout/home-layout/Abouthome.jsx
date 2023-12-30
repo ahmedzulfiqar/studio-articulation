@@ -6,7 +6,7 @@ import Abouthomeetext from "../../blocks/home-blocks/Abouthomeetext";
 function Abouthome({ scrollRef }) {
   return (
     <div
-      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 h-100 "
+      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 vh-100 "
       id="abouthome"
       style={{
         scrollSnapAlign: "center",
