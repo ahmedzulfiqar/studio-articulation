@@ -38,7 +38,7 @@ function Home({ setclasse }) {
     <div
       className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 home"
       style={{
-        scrollSnapType: "y mandatory",
+        scrollSnapType: "y proximity",
         scrollBehavior: "smooth",
       }}
       id="scroll-container"
