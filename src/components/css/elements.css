@@ -1,11 +1,11 @@
 * {
-  --purple: #9a40ff;
-  --orange: #f89e52;
-  --blue: #2b78f3;
-  --red: #f76766;
-  --green: #57c0ce;
+  --purple: #927abb;
+  --orange: #f2d6a2;
+  --blue: #89d4d1;
+  --red: #e97ab4;
+  --green: #b1d79c;
   --black: #212121;
-  --time: 0.5s ease;
+  --time: 0.2s ease;
 }
 
 .LinkItem {
@@ -14,5 +14,13 @@
   color: var(--black) !important;
 }
 .LinkItem:hover {
-  color: var(--purple) !important;
+  color: var(--red) !important;
+}
+.shadows {
+  text-shadow: 0px 0px 1px #00000071;
+}
+@media screen and (max-width: 800px) {
+  .home {
+    margin-top: 70px;
+  }
 }

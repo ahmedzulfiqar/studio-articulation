@@ -4,7 +4,7 @@ import List from "../../blocks/header-blocks/List";
 function Navbar() {
   return (
     <div
-      className="col-12 p-0  py-lg-2 py-1 "
+      className="col-12 p-0  py-lg-2 py-1 position-fixed bg-light"
       style={{ position: "relative", zIndex: "20" }}
     >
       <div className="container p-0 ">

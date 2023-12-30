@@ -15,11 +15,11 @@ a {
   box-shadow: none !important;
 }
 * {
-  --purple: #9a40ff;
-  --orange: #f89e52;
-  --blue: #2b78f3;
-  --red: #f76766;
-  --green: #57c0ce;
+  --purple: #927ABB;
+  --orange: #F2D6A2;
+  --blue: #89D4D1;
+  --red: #E97AB4;
+  --green: #B1D79C;
   --black: #212121;
   --time: 0.2s ease;
 }
@@ -79,7 +79,7 @@ body {
   border: 1.5px solid var(--blue);
 }
 .border-red {
-  border: 1.5px solid var(--red);
+  border: 2px solid var(--red);
 }
 .border-green {
   border: 1.5px solid var(--green);
