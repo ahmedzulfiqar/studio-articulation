@@ -29,7 +29,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+p{
+}
 /* bg */
 .bg-purple {
   background-color: var(--purple);
@@ -86,4 +87,10 @@ body {
 }
 .border-black {
   border: 1.5px solid var(--black);
+}
+.fp-watermark{
+  display: none !important;
+}
+::-webkit-scrollbar{
+  display: none;
 }

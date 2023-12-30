@@ -1,8 +1,10 @@
 import React from "react";
 
-function LinkItem({ data }) {
+function LinkItem({ data, classe }) {
   return (
-    <div className="LinkItem fw-bold px-2 mx-1 text-uppercase">{data.text}</div>
+    <div className={`LinkItem fw-bold px-2 mx-1 text-uppercase ${classe} bg-transparent`}>
+      {data.text}
+    </div>
   );
 }
 

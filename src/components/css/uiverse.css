@@ -1,9 +1,9 @@
 * {
-  --purple: #927ABB;
-  --orange: #F2D6A2;
-  --blue: #89D4D1;
-  --red: #E97AB4;
-  --green: #B1D79C;
+  --purple: #927abb;
+  --orange: #f2d6a2;
+  --blue: #89d4d1;
+  --red: #e97ab4;
+  --green: #b1d79c;
   --black: #212121;
   --time: 0.2s ease;
 }
@@ -82,4 +82,13 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+.rednav {
+  background: var(--red);
+}
+.purplenav {
+  background-color: var(--purple);
+}
+.bluenav {
+  background-color: var(--blue);
 }

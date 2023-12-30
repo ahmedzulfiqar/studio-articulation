@@ -6,6 +6,7 @@ function Mainhome() {
   return (
     <div
       className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 vh-100 "
+      id="mainhome"
       style={{ scrollSnapAlign: "center" }}
     >
       <div className="container h-100 d-lg-block d-none ">

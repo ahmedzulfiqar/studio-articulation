@@ -19,8 +19,17 @@
 .shadows {
   text-shadow: 0px 0px 1px #00000071;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .home {
     margin-top: 70px;
   }
+}
+.rednav:hover {
+  color: var(--red) !important;
+}
+.purplenav:hover {
+  color: var(--purple) !important;
+}
+.bluenav:hover {
+  color: var(--blue) !important;
 }
