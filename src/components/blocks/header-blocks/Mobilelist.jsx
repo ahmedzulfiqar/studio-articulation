@@ -6,7 +6,7 @@ import { animate, motion, stagger } from "framer-motion";
 function Mobilelist({ open, setopen }) {
   const variants = {
     open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: -100 },
+    closed: { opacity: 0, x: -300 },
   };
   const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
 

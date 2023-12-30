@@ -25,6 +25,9 @@ a {
 }
 body {
   background-image: url(https://wallpapertag.com/wallpaper/full/b/1/4/403830-cool-white-background-2000x1333-htc.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* bg */
