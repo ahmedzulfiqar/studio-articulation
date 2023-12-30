@@ -21,7 +21,7 @@
 }
 @media screen and (max-width: 1000px) {
   .home {
-    margin-top: 70px;
+    padding-top: 100px !important;
   }
 }
 .rednav:hover {

@@ -36,7 +36,7 @@ function Home({ setclasse }) {
   }, []);
   return (
     <div
-      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 home"
+      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 "
       style={{
         scrollSnapType: "y mandatory",
         scrollBehavior: "smooth",

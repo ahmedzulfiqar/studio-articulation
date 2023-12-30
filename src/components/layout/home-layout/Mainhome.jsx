@@ -5,7 +5,7 @@ import Svg1 from "../../utilities/Svg1";
 function Mainhome() {
   return (
     <div
-      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 vh-100 "
+      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 vh-100 home"
       id="mainhome"
       style={{ scrollSnapAlign: "center" }}
     >
