@@ -1,7 +1,7 @@
 * {
   --purple: #927abb;
   --orange: #f2d6a2;
-  --blue: #89d4d1;
+  --blue: #4939bb;
   --red: #e97ab4;
   --green: #b1d79c;
   --black: #212121;
@@ -32,7 +32,7 @@
 }
 
 .mainbtn:hover {
-  color: #fff;
+  color: #fff !important;
 }
 
 .mainbtn:hover::before {
@@ -86,9 +86,18 @@
 .rednav {
   background: var(--red);
 }
+.rednav::before {
+  background: var(--red);
+}
 .purplenav {
   background-color: var(--purple);
 }
+.purplenav::before {
+  background: var(--purple);
+}
 .bluenav {
   background-color: var(--blue);
+}
+.bluenav::before {
+  background: var(--blue);
 }
