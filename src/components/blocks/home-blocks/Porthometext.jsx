@@ -33,13 +33,18 @@ function Porthometext() {
               <p className="text-uppercase fw-bolder fs-5 text-dark">
                 Visit My Portfolio
               </p>
-              <p className="small text-muted opacity-75">
+              <p className="small text-muted opacity-75 d-lg-block d-none">
                 riven by a deep understanding of the built environment and a
                 keen eye for detail, I utilize digital tools to create impactful
                 the power of creativity to solve problems and spark new ideas.
                 My work is driven by a desire to explore the possibilities of
                 design and to create images that are both beautiful and
                 meaningful.
+              </p>
+              <p className="small fs-6 text-muted opacity-75 d-lg-none d-block">
+                riven by a deep understanding of the built environment and a
+                keen eye for detail, I utilize digital tools to create impactful
+                the power of creativity to solve problems and spark new ideas.
               </p>
             </blockquote>
           </div>

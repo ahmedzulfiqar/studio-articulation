@@ -94,3 +94,13 @@ p {
 ::-webkit-scrollbar {
   display: none;
 }
+.homer {
+  scroll-snap-type: y mandatory !important;
+  scroll-behavior: smooth !important;
+}
+@media screen and (max-width: 1000px) {
+  .homer {
+    scroll-snap-type: none !important;
+    scroll-behavior: smooth !important;
+  }
+}

@@ -44,11 +44,8 @@ function Home({ setclasse }) {
 
   return (
     <div
-      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative"
-      style={{
-        scrollSnapType: "y mandatory",
-        scrollBehavior: "smooth",
-      }}
+      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer"
+     
       id="scroll-container"
     >
       <Mainhome />
