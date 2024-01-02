@@ -1,9 +1,9 @@
 * {
   --purple: #927abb;
-  --orange: #f2d6a2;
+  --orange: #ec535b;
   --blue: #4939bb;
   --red: #e97ab4;
-  --green: #b1d79c;
+  --green: #63c36b;
   --black: #212121;
   --time: 0.2s ease;
 }
@@ -85,19 +85,29 @@
 }
 .rednav {
   background: var(--red);
+  stroke: var(--red) !important;
 }
 .rednav::before {
   background: var(--red);
 }
 .purplenav {
   background-color: var(--purple);
+  stroke: var(--purple) !important;
+}
+.orangenav {
+  background-color: var(--orange);
+  stroke: var(--orange) !important;
 }
 .purplenav::before {
   background: var(--purple);
 }
 .bluenav {
+  stroke: var(--blue) !important;
   background-color: var(--blue);
 }
 .bluenav::before {
   background: var(--blue);
+}
+.orangenav::before {
+  background: var(--orange);
 }

@@ -5,7 +5,7 @@ import RouterFiles from "./components/router/RouterFiles";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App m-0 p-0">
       <div className="row m-0">
         <RouterFiles />
       </div>

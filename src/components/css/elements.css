@@ -1,9 +1,9 @@
 * {
   --purple: #927abb;
-  --orange: #f2d6a2;
+  --orange: #ec535b;
   --blue: #4939bb;
   --red: #e97ab4;
-  --green: #b1d79c;
+  --green: #63c36b;
   --black: #212121;
   --time: 0.2s ease;
 }
@@ -19,11 +19,18 @@
 .shadows {
   text-shadow: 0px 0px 1px #00000071;
 }
+.port {
+  padding-top: 120px !important;
+}
 @media screen and (max-width: 1000px) {
   .home {
     padding-top: 100px !important;
   }
+  .port {
+    padding-top: 40px !important;
+  }
 }
+
 .rednav:hover {
   color: var(--red) !important;
 }
@@ -32,4 +39,10 @@
 }
 .bluenav:hover {
   color: var(--blue) !important;
+}
+.orangenav:hover {
+  color: var(--orange) !important;
+}
+.min-vh-75 {
+  min-height: 100vh !important;
 }

@@ -15,21 +15,21 @@ a {
   box-shadow: none !important;
 }
 * {
-  --purple: #927ABB;
-  --orange: #F2D6A2;
+  --purple: #927abb;
+  --orange: #ec535b;
   --blue: #4939bb;
-  --red: #E97AB4;
-  --green: #B1D79C;
+  --red: #e97ab4;
+  --green: #63c36b;
   --black: #212121;
   --time: 0.2s ease;
 }
 body {
-  background-image: url(https://wallpapertag.com/wallpaper/full/b/1/4/403830-cool-white-background-2000x1333-htc.jpg);
+  /*background-image: url(https://wallpapertag.com/wallpaper/full/b/1/4/403830-cool-white-background-2000x1333-htc.jpg);*/
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-p{
+p {
 }
 /* bg */
 .bg-purple {
@@ -88,9 +88,9 @@ p{
 .border-black {
   border: 1.5px solid var(--black);
 }
-.fp-watermark{
+.fp-watermark {
   display: none !important;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }

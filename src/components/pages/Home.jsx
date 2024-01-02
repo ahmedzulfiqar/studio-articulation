@@ -2,12 +2,14 @@ import React, { useEffect, useRef, useState } from "react";
 import Mainhome from "../layout/home-layout/Mainhome";
 import Abouthome from "../layout/home-layout/Abouthome";
 import Workshophome from "../layout/home-layout/Workshophome";
-
+import Porthome from "../layout/home-layout/Porthome";
+import Footerhome from "../layout/home-layout/Footerhome";
 function Home({ setclasse }) {
   useEffect(() => {
     const handleScroll = () => {
       const mainSection = document.getElementById("mainhome");
       const aboutSection = document.getElementById("abouthome");
+      const portSection = document.getElementById("porthome"); // Update with the actual ID of Porthome
       const workshopSection = document.getElementById("workshophome");
       const container = document.getElementById("scroll-container");
       const scrollPosition = container.scrollTop;
@@ -19,9 +21,14 @@ function Home({ setclasse }) {
         setclasse("rednav");
       } else if (
         scrollPosition >= aboutSection.offsetTop &&
-        scrollPosition < workshopSection.offsetTop
+        scrollPosition < portSection.offsetTop
       ) {
         setclasse("purplenav");
+      } else if (
+        scrollPosition >= portSection.offsetTop &&
+        scrollPosition < workshopSection.offsetTop
+      ) {
+        setclasse("orangenav");
       } else if (scrollPosition >= workshopSection.offsetTop) {
         setclasse("bluenav");
       }
@@ -33,10 +40,11 @@ function Home({ setclasse }) {
     return () => {
       container.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [setclasse]); // Include setclasse as a dependency
+
   return (
     <div
-      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 "
+      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative"
       style={{
         scrollSnapType: "y mandatory",
         scrollBehavior: "smooth",
@@ -45,7 +53,9 @@ function Home({ setclasse }) {
     >
       <Mainhome />
       <Abouthome />
+      <Porthome />
       <Workshophome />
+      <Footerhome />
     </div>
   );
 }

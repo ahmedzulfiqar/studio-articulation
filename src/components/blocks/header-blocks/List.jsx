@@ -14,7 +14,7 @@ function List({ classe }) {
         </div>
       </div>
       <Mobilelist open={open} setopen={setopen} />
-      <Toggler open={open} setopen={setopen} />
+      <Toggler open={open} setopen={setopen} classe={classe} />
     </div>
   );
 }
