@@ -31,7 +31,7 @@ function Workshophometext() {
           <div class="card-body ">
             <blockquote class="blockquote m-0  ">
               <p className="text-uppercase fw-bolder fs-5 text-dark">
-               fa4-adob Interactive Adobe Illustrator Workshop
+               Interactive Adobe Illustrator Workshop
               </p>
               <p className="small text-dark opacity-75">
                 Interactive & Beginner Friendly Workshop, aiming to understand

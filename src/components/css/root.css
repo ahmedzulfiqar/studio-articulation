@@ -100,7 +100,7 @@ p {
 }
 @media screen and (max-width: 1000px) {
   .homer {
-    scroll-snap-type: none !important;
+    scroll-snap-type: y mandatory !important;
     scroll-behavior: smooth !important;
   }
 }

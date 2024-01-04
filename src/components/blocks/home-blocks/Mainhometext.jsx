@@ -26,11 +26,11 @@ function Mainhometext() {
         </div>
         <div className="display-2 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-lg-block d-none">
           <span className="text-red">Architectural</span> Graphics And
-          <span className="text-red"> Visualisation </span>
+          <span className="text-red"> Visualisation </span>studio
         </div>
         <div className="display-5 ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-lg-none d-block text-uppercase">
           <span className="text-red">Architectural</span> Graphics And
-          <span className="text-red"> Visualisation </span>
+          <span className="text-red"> Visualisation </span>studio
         </div>
         <div className="ps-lg-1 pt-lg-2">
           <div className="btn btn-lg mainbtn px-4 border-0 fw-bolder py-lg-3 py-2 shadow-sm">

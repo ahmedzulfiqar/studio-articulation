@@ -4,13 +4,15 @@ import Abouthome from "../layout/home-layout/Abouthome";
 import Workshophome from "../layout/home-layout/Workshophome";
 import Porthome from "../layout/home-layout/Porthome";
 import Footerhome from "../layout/home-layout/Footerhome";
+import Testemonials from "../layout/home-layout/Testemonials";
 function Home({ setclasse }) {
   useEffect(() => {
     const handleScroll = () => {
       const mainSection = document.getElementById("mainhome");
       const aboutSection = document.getElementById("abouthome");
-      const portSection = document.getElementById("porthome"); // Update with the actual ID of Porthome
+      const portSection = document.getElementById("porthome");
       const workshopSection = document.getElementById("workshophome");
+      const testimonialsSection = document.getElementById("testimonials");
       const container = document.getElementById("scroll-container");
       const scrollPosition = container.scrollTop;
 
@@ -29,8 +31,13 @@ function Home({ setclasse }) {
         scrollPosition < workshopSection.offsetTop
       ) {
         setclasse("orangenav");
-      } else if (scrollPosition >= workshopSection.offsetTop) {
+      } else if (
+        scrollPosition >= workshopSection.offsetTop &&
+        scrollPosition < testimonialsSection.offsetTop
+      ) {
         setclasse("bluenav");
+      } else if (scrollPosition >= testimonialsSection.offsetTop) {
+        setclasse("greennav");
       }
     };
 
@@ -40,18 +47,18 @@ function Home({ setclasse }) {
     return () => {
       container.removeEventListener("scroll", handleScroll);
     };
-  }, [setclasse]); // Include setclasse as a dependency
+  }, [setclasse]);
 
   return (
     <div
       className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer"
-     
       id="scroll-container"
     >
       <Mainhome />
       <Abouthome />
       <Porthome />
       <Workshophome />
+      <Testemonials />
       <Footerhome />
     </div>
   );

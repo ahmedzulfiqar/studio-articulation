@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 function Mainhome() {
   return (
     <div
-      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 min-vh-75 home"
+      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 min-vh-75 home "
+      data-cursor-color="#e97ab4"
       id="mainhome"
       style={{ scrollSnapAlign: "center" }}
     >

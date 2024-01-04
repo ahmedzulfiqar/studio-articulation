@@ -43,6 +43,9 @@
 .orangenav:hover {
   color: var(--orange) !important;
 }
+.greennav:hover {
+  color: var(--green) !important;
+}
 .min-vh-75 {
   min-height: 100vh !important;
 }

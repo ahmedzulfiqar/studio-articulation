@@ -10,6 +10,7 @@ function Abouthome({ scrollRef }) {
     <div
       className="col-12 p-0 mt-lg-5 pt-lg-0 pt-4 min-vh-75  home"
       id="abouthome"
+      data-cursor-color="#927abb"
       style={{
         scrollSnapAlign: "center",
         backgroundSize: "cover",

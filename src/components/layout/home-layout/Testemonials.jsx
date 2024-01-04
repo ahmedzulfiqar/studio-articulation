@@ -3,12 +3,13 @@ import Svg5 from "../../utilities/Svg5";
 import Porthometext from "../../blocks/home-blocks/Porthometext";
 import Porthomeimage from "../../blocks/home-blocks/Porthomeimage";
 import { motion } from "framer-motion";
-import img2 from "../../media/bendy-international-transportation-and-delivery-logistics.gif";
-function Porthome() {
+import img2 from "../../media/outline-male-programmer-having-online-meeting.gif";
+import Testemonialstext from "../../blocks/home-blocks/Testemonialstext";
+function Testemonials() {
   return (
     <div
       className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 min-vh-75 home"
-      id="porthome"
+      id="testimonials"
       style={{ scrollSnapAlign: "start" }}
     >
       <motion.img
@@ -16,9 +17,9 @@ function Porthome() {
         className="position-absolute d-lg-block d-none"
         alt=""
         style={{
-          width: "10vw",
-          marginTop: "8%",
-          left: "6vw",
+          width: "8vw",
+          marginTop: "43%",
+          left: "7vw",
         }}
         viewport={{ once: true }}
         initial="hidden"
@@ -37,8 +38,8 @@ function Porthome() {
         className="position-absolute d-lg-block d-none"
         alt=""
         style={{
-          width: "10vw",
-          marginTop: "43%",
+          width: "8vw",
+          marginTop: "8%",
           right: "7vw",
         }}
         viewport={{ once: true }}
@@ -53,20 +54,18 @@ function Porthome() {
         }}
         transition={{ duration: 1, delay: 0.8 }}
       />
-      <div className="container h-100 d-lg-block d-none ">
-        <div className="row m-0 h-100  justify-content-between">
-          <Porthometext />
-          <Porthomeimage svg={<Svg5 />} />
+      <div className="container h-100 d-lg-block d-none p-0">
+        <div className="row m-0 h-100   justify-content-center">
+          <Testemonialstext />
         </div>
       </div>
       <div className="container d-lg-none d-block ">
-        <div className="row m-0 h-100 justify-content-between">
-          <Porthometext />
-          <Porthomeimage svg={<Svg5 />} />
+        <div className="row m-0 h-100 justify-content-center">
+          <Testemonialstext />
         </div>
       </div>
     </div>
   );
 }
 
-export default Porthome;
+export default Testemonials;

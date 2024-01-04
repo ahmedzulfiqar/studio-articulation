@@ -3,59 +3,79 @@ import Svg4 from "../../utilities/Svg4";
 function Footerhome() {
   return (
     <footer
-      class="text-center text-lg-start mt-5 bg-body-tertiary text-muted home"
+      class="text-center text-lg-start mt-lg-5 py-0 bg-light text-muted px-0 "
       style={{
         scrollSnapAlign: "center",
         backgroundSize: "cover",
       }}
     >
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div className=" col-xl-3 ms-auto mb-4">
-              <Svg4 />
-            </div>
-            <div class=" col-xl-3 me-auto mb-4">
-              <h6 class="text-uppercase text-green  fw-bold mb-4">
-                Studio Articulation
-              </h6>
-              <p>
-                Driven by a deep understanding of the built environment and a
-                keen eye for detail,I utilize digital tools to create impactful
-                architectural illustrations.
-              </p>
-            </div>
-            <div class=" col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4 text-green ">
-                Useful links
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">
-                  Help
-                </a>
-              </p>
-            </div>
-            <div class="col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4 text-green ">Contact</h6>
-              <p>New York, NY 10012, US</p>
-              <p>info@example.com</p>
-              <p>+ 01 234 567 88</p>
-              <p>+ 01 234 567 89</p>
+      <section class="py-2  text-center">
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://in.pinterest.com/rathoreritu91111/"
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.behance.net/ritikarathore"
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-behance"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://studioarticulation.gumroad.com/
+          "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-google"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.instagram.com/studio_articulation/?hl=en
+          "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://in.linkedin.com/in/ar-ritika-rathore-b5908a1a5 "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </section>
+      <section class="py-lg-5 py-3  px-0 ">
+        <div class="container text-center p-0 ">
+          <div className="row m-0 ">
+            <div className="col-12 text-uppercase ">
+              <div className="display-5 fw-bolder text-dark d-md-block d-none">
+                <span className="text-"> Intrested </span> In{" "}
+                <span className="text-"> Working </span>With{" "}
+                <span className="text-"> US </span> ?
+              </div>
+              <div className="fs-6 fw-bolder text-dark d-md-none d-block">
+                <span className="text-"> Intrested </span> In{" "}
+                <span className="text-"> Working </span>With{" "}
+                <span className="text-"> US </span> ?
+              </div>
             </div>
           </div>
         </div>
