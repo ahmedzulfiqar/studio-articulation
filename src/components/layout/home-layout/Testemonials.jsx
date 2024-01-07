@@ -3,7 +3,7 @@ import Svg5 from "../../utilities/Svg5";
 import Porthometext from "../../blocks/home-blocks/Porthometext";
 import Porthomeimage from "../../blocks/home-blocks/Porthomeimage";
 import { motion } from "framer-motion";
-import img2 from "../../media/outline-male-programmer-having-online-meeting.gif";
+import img2 from "../../media/outline-online-insurance-services-with-electronic-signature.gif";
 import Testemonialstext from "../../blocks/home-blocks/Testemonialstext";
 function Testemonials() {
   return (

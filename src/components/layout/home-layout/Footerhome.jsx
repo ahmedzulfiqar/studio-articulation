@@ -62,7 +62,7 @@ function Footerhome() {
           <i class="fab fa-linkedin"></i>
         </a>
       </section>
-      <section class="py-lg-5 py-3  px-0 ">
+      <section class="py-lg-3 pt-lg-2 py-3  px-0 ">
         <div class="container text-center p-0 ">
           <div className="row m-0 ">
             <div className="col-12 text-uppercase ">

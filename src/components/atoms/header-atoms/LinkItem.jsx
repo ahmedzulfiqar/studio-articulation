@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function LinkItem({ data, classe }) {
   return (
-    <div className={`LinkItem fw-bold px-2 mx-1 text-uppercase ${classe} bg-transparent`}>
+    <Link
+      className={`LinkItem fw-bold px-2 mx-1 text-uppercase ${classe} bg-transparent`}
+      to={data.path}
+    >
       {data.text}
-    </div>
+    </Link>
   );
 }
 
