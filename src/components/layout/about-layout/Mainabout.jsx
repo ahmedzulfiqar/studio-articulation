@@ -9,7 +9,20 @@ function Mainabout() {
     >
       <div className="container h-100">
         <div className="row m-0 py-0 h-100 d-flex align-items-center justify-content-between ">
-          <motion.div className="col-lg-6 col-12 text-lg-start textx p-0">
+          <motion.div
+            className="col-lg-6 col-12 text-lg-start textx p-0"
+            viewport={{ once: true }}
+            initial="hidden"
+            whileInView="visible"
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: {
+                opacity: 0,
+                x: -100,
+              },
+            }}
+            transition={{ duration: 1, delay: 0.3 }}
+          >
             <div className="text-red text-uppercase fw-bolder display-3 mb-lg-4 mb-2">
               Ritika Rathore
             </div>
@@ -56,9 +69,22 @@ function Mainabout() {
               </span>
             </p>
           </motion.div>
-          <div className="col-lg-5 col-12 p-0 border-red border-5  rounded-4 overflow-hidden">
+          <motion.div
+            className="col-lg-5 col-12 p-0 border-red border-5  rounded-4 overflow-hidden"
+            viewport={{ once: true }}
+            initial="hidden"
+            whileInView="visible"
+            variants={{
+              visible: { opacity: 1, y: 0 },
+              hidden: {
+                opacity: 0,
+                y: -100,
+              },
+            }}
+            transition={{ duration: 1, delay: 0.3 }}
+          >
             <img src={person} alt="" className="img-fluid" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

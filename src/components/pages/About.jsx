@@ -5,7 +5,7 @@ import Thirdabout from "../layout/about-layout/Thirdabout";
 import Forthlayout from "../layout/about-layout/Forthlayout";
 import Fifthabout from "../layout/about-layout/Fifthabout";
 import Lastabout from "../layout/about-layout/Lastabout";
-
+import Footerhome from "../layout/home-layout/Footerhome";
 function About() {
   return (
     <div className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer ">
@@ -15,6 +15,7 @@ function About() {
       <Forthlayout />
       <Fifthabout />
       <Lastabout />
+      <Footerhome />
     </div>
   );
 }
