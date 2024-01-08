@@ -57,7 +57,7 @@ function Home({ setclasse }) {
       <Mainhome />
       <Abouthome />
       <Porthome />
-      <Testemonials /> <Workshophome />
+      <Workshophome /> <Testemonials />
       <Footerhome />
     </div>
   );

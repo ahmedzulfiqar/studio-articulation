@@ -4,7 +4,7 @@ const Linkdata = [
   { text: "WorkShop", path: "" },
   { text: "Shop", path: "" },
   { text: "Services", path: "" },
-  { text: "Portfolio", path: "" },
+  { text: "Portfolio", path: "/portfolio" },
 ];
 
 export default Linkdata;
