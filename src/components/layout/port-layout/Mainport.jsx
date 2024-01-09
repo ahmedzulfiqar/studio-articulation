@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Portcard from "../../blocks/port-blocks/Portcard";
-import { Portdata, Portdata2, Portdata3, videodata } from "../../data/Portdata";
+import { Plans, concept, conceptdev, other, videodata } from "../../data/Portdata";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -17,7 +17,7 @@ import {
 function Mainport() {
   return (
     <motion.div
-      className="col-12 m-0  py-0  mt-lg-5 pt-lg-5 overflow-hidden port px-0 "
+      className="col-12 m-0  py-0  mt-lg-5 pt-lg-5 overflow-hidden hello px-0 "
       viewport={{ once: true }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -107,7 +107,7 @@ function Mainport() {
                         <video
                           src={data.vid}
                           controls
-                          className="img-fluid  rounded-4 border-orange border-5"
+                          className="img-fluid  rounded-4 border border-light border-5"
                         ></video>
                       </SwiperSlide>
                     );
@@ -115,22 +115,133 @@ function Mainport() {
                 </Swiper>
               </div>
               <div className="col-12 display-6 text-dark fw-bolder my-lg-4">
-                My Work <span className="text-orange"> Graphics</span>
+                My Work <span className="text-orange"> Plans</span>
               </div>
-              <div className="col-lg-4 col-12  px-lg-2">
-                {Portdata.map((data) => {
-                  return <Portcard data={data} />;
-                })}
+              <div className="col-lg-12 col-12 p-0">
+                <Swiper
+                  className="my-lg-4 my-4 "
+                  loop={true}
+                  modules={[Navigation, Autoplay]}
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    },
+                  }}
+                >
+                  {Plans.map((data) => {
+                    return (
+                      <SwiperSlide>
+                        <Portcard data={data} />
+                      </SwiperSlide>
+                    );
+                  })}
+                </Swiper>
               </div>
-              <div className="col-lg-4 col-12 px-lg-2 ">
-                {Portdata2.map((data) => {
-                  return <Portcard data={data} />;
-                })}
-              </div>{" "}
-              <div className="col-lg-4 col-12 px-lg-2">
-                {Portdata3.map((data) => {
-                  return <Portcard data={data} />;
-                })}
+              <div className="col-12 display-6 text-dark fw-bolder my-lg-4">
+                Spatial Relationship
+                <span className="text-orange"> Diagram</span>
+              </div>
+              <div className="col-lg-12 col-12 p-0">
+                <Swiper
+                  className="my-lg-4 my-4 "
+                  loop={true}
+                  modules={[Navigation, Autoplay]}
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    },
+                  }}
+                >
+                  {concept.map((data) => {
+                    return (
+                      <SwiperSlide>
+                        <Portcard data={data} />
+                      </SwiperSlide>
+                    );
+                  })}
+                </Swiper>
+              </div>
+              <div className="col-12 display-6 text-dark fw-bolder my-lg-4">
+                Concept Development<span className="text-orange"> Diagram</span>
+              </div>
+              <div className="col-lg-12 col-12 p-0">
+                <Swiper
+                  className="my-lg-4 my-4 "
+                  loop={true}
+                  modules={[Navigation, Autoplay]}
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    },
+                  }}
+                >
+                  {conceptdev.map((data) => {
+                    return (
+                      <SwiperSlide>
+                        <Portcard data={data} />
+                      </SwiperSlide>
+                    );
+                  })}
+                </Swiper>
+              </div>
+              <div className="col-12 display-6 text-dark fw-bolder my-lg-2">
+          <span className="text-BLACK"> OTHER</span>
+              </div>
+              <div className="col-lg-12 col-12 p-0">
+                <Swiper
+                  className="my-lg-4 my-4 "
+                  loop={true}
+                  modules={[Navigation, Autoplay]}
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    },
+                  }}
+                >
+                  {other.map((data) => {
+                    return (
+                      <SwiperSlide>
+                        <Portcard data={data} />
+                      </SwiperSlide>
+                    );
+                  })}
+                </Swiper>
               </div>
             </div>
           </div>

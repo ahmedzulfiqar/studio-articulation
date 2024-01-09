@@ -11,6 +11,7 @@
 .LinkItem {
   cursor: pointer;
   transition: var(--time);
+
   color: var(--black) !important;
 }
 .LinkItem:hover {
@@ -20,6 +21,9 @@
   text-shadow: 0px 0px 1px #00000071;
 }
 .port {
+  padding-top: 120px !important;
+}
+.hello {
   padding-top: 120px !important;
 }
 .homer2 {
@@ -34,6 +38,9 @@
   }
   .port {
     padding-top: 40px !important;
+  }
+  .hello {
+    padding-top: 86px !important;
   }
 }
 
@@ -55,9 +62,24 @@
 .min-vh-75 {
   min-height: 100vh !important;
 }
+.Portcard {
+  max-height: 36vh !important;
+}
 .Portcard img {
   transition: all 0.5s ease !important;
 }
 .Portcard:hover img {
   transform: scale(1.2) !important;
+}
+.transfromer {
+  position: absolute;
+  bottom: 0;
+  transition: 0.5s ease;
+  transform: translateY(55px);
+}
+.Portcard:hover .transfromer {
+  transform: translateY(0px);
+}
+img {
+  pointer-events: none !important;
 }

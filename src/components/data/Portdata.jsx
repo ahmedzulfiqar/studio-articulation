@@ -28,48 +28,27 @@ import img27 from "../media/portfoliomedia/27.jpg";
 import img28 from "../media/portfoliomedia/28.jpg";
 import img29 from "../media/portfoliomedia/29.jpg";
 import img30 from "../media/portfoliomedia/30.png";
+import img31 from "../media/portfoliomedia/31.jpg";
 import vid1 from "../media/portfoliomedia/video/concept reel.mp4";
 import vid2 from "../media/portfoliomedia/video/How to make trees in Illustrator.mp4";
 import vid3 from "../media/portfoliomedia/video/Recap.mp4";
 import vid4 from "../media/portfoliomedia/video/reel 2.mp4";
 import vid5 from "../media/portfoliomedia/video/reel.mp4";
 import vid6 from "../media/portfoliomedia/video/Untitled design (1).mp4";
-const Portdata = [
+const Plans = [
   { img: img1 },
-  { img: img2 },
   { img: img3 },
   { img: img4 },
   { img: img5 },
-  { img: img6 },
-  { img: img7 },
-  { img: img22 },
-  { img: img23 },
-  { img: img24 },
-];
-const Portdata2 = [
   { img: img8 },
-  { img: img9 },
-  { img: img10 },
-  { img: img11 },
-  { img: img12 },
-  { img: img13 },
-  { img: img14 },
   { img: img25 },
   { img: img26 },
   { img: img27 },
-];
-const Portdata3 = [
-  { img: img15 },
-  { img: img16 },
-  { img: img17 },
-  { img: img18 },
-  { img: img19 },
-  { img: img20 },
   { img: img28 },
-  { img: img30 },
   { img: img29 },
-  { img: img21 },
+  { img: img31 },
 ];
+
 const videodata = [
   { vid: vid1 },
   { vid: vid2 },
@@ -78,5 +57,26 @@ const videodata = [
   { vid: vid5 },
   { vid: vid6 },
 ];
-
-export { Portdata, Portdata2, Portdata3, videodata };
+const concept = [{ img: img11 }, { img: img10 }, { img: img9 }];
+const conceptdev = [
+  { img: img6 },
+  { img: img13 },
+  { img: img14 },
+  { img: img15 },
+  { img: img16 },
+  { img: img17 },
+  { img: img22 },
+];
+const other = [
+  { img: img2 },
+  { img: img7 },
+  { img: img12},
+  { img: img18 },
+  { img: img19 },
+  { img: img20 },
+  { img: img21 },
+  { img: img23 },
+  { img: img24 },
+  { img: img30 },
+];
+export { Plans, videodata, concept, conceptdev, other };
