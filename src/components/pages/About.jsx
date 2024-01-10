@@ -8,7 +8,7 @@ import Lastabout from "../layout/about-layout/Lastabout";
 import Footerhome from "../layout/home-layout/Footerhome";
 function About() {
   return (
-    <div className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer ">
+    <div className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer ps-lg-0 ps-2">
       <Mainabout />
       <Secondabout />
       <Thirdabout />
