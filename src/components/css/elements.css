@@ -26,6 +26,9 @@
 .hello {
   padding-top: 120px !important;
 }
+.hello2 {
+  padding-top: 105px !important;
+}
 .homer2 {
   margin-top: 110px !important;
 }
@@ -41,6 +44,9 @@
   }
   .hello {
     padding-top: 86px !important;
+  }
+  .hello2 {
+    padding-top:72px !important;
   }
 }
 

@@ -12,7 +12,7 @@ function Abouthome({ scrollRef }) {
       id="abouthome"
       data-cursor-color="#927abb"
       style={{
-        scrollSnapAlign: "center",
+        scrollSnapAlign: "start",
         backgroundSize: "cover",
       }}
     >

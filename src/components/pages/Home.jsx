@@ -51,7 +51,7 @@ function Home({ setclasse }) {
 
   return (
     <div
-      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer"
+      className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer "
       id="scroll-container"
     >
       <Mainhome />

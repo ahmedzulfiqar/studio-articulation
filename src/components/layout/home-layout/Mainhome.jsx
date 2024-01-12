@@ -11,11 +11,11 @@ function Mainhome() {
       className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 min-vh-75 home "
       data-cursor-color="#e97ab4"
       id="mainhome"
-      style={{ scrollSnapAlign: "center" }}
+      style={{ scrollSnapAlign: "start" }}
     >
       <motion.img
         src={img2}
-        className="position-absolute d-lg-block d-none"
+        className="position-absolute d-xl-block d-none"
         alt=""
         style={{
           width: "8vw",
@@ -37,7 +37,7 @@ function Mainhome() {
       />
       <motion.img
         src={img2}
-        className="position-absolute d-lg-block d-none"
+        className="position-absolute d-xl-block d-none"
         alt=""
         style={{
           width: "8vw",

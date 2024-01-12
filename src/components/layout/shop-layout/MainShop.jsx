@@ -1,10 +1,12 @@
 import React from "react";
 import pexl from "../../media/pexels-lumn-316466.jpg";
+import Barshop from "./Barshop";
+
 function MainShop() {
   return (
     <div className="col-12 p-0">
       <div
-        className="row m-0 justify-content-center"
+        className="row m-0  justify-content-center align-items-center border"
         style={{
           backgroundImage: `url(${pexl})`,
           height: "40vh",
@@ -12,17 +14,16 @@ function MainShop() {
           backgroundPosition: "bottom",
         }}
       >
-        <div className="col-8 p-0">
-          <div className="row m-0">
-            <div className="col-6 p-0 text-start  display-5 text-uppercase fw-bolder">
-              architectural <span className="text-green">resource</span> shop
+        <div className="col-lg-8 col-12 p-0 ">
+          <div className="row m-0 ">
+            <div className="col-lg-6 col-12 p-0  text-lg-start text-center display-2 text-uppercase fw-bolder d-lg-block d-none">
+              architectural <span className="text-green">resource Shop</span>
+            </div>{" "}
+            <div className="col-lg-6 col-12 p-0 text-lg-start text-center display-5 text-uppercase fw-bolder d-lg-none d-block">
+              architectural <span className="text-green">resource Shop</span>
             </div>
-            <div className="col-6"></div>
           </div>
         </div>
-      </div>
-      <div className="container p-0 mt-lg-5">
-        <div className="row m-0 justify-content-center "></div>
       </div>
     </div>
   );
