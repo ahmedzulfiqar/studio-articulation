@@ -46,7 +46,7 @@
     padding-top: 86px !important;
   }
   .hello2 {
-    padding-top:72px !important;
+    padding-top: 72px !important;
   }
 }
 
@@ -88,4 +88,8 @@
 }
 img {
   pointer-events: none !important;
+}
+.shopcard .card {
+  cursor: pointer;
+  min-height: 37vh !important;
 }

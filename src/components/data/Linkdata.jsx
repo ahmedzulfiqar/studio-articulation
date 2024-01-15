@@ -3,7 +3,6 @@ const Linkdata = [
   { text: "About Me", path: "/about" },
   { text: "WorkShop", path: "" },
   { text: "Shop", path: "/shop" },
-  { text: "Services", path: "" },
   { text: "Portfolio", path: "/portfolio" },
 ];
 

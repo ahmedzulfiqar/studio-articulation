@@ -6,7 +6,7 @@ function Shopcard({ data }) {
 
   return (
     <motion.div
-      className="col-xl-3 col-lg-4 col-sm-6 col-12 py-lg-4 py-1 px-lg-3 px-0 overflow-visible bg-transparent pointer"
+      className="col-xl-3 col-lg-4 col-sm-6 col-12 py-lg-4 py-3 px-lg-3 px-0 overflow-visible bg-transparent shopcard"
       viewport={{ once: true }}
       initial="hidden"
       whileInView="visible"
@@ -34,7 +34,7 @@ function Shopcard({ data }) {
             visibility: hovered ? "hidden" : "visible",
           }}
           transition={{ duration: 0.5 }}
-          style={{ width: hovered ? 0 : "100%", height: hovered ? 0 : "auto" }}
+          style={{ width: hovered ? 0 : "100%", height: hovered ? 0 : "27vh" }}
         />
         <motion.img
           src={data.images[1]}
@@ -46,7 +46,7 @@ function Shopcard({ data }) {
             visibility: hovered ? "visible" : "hidden",
           }}
           transition={{ duration: 0.5 }}
-          style={{ width: hovered ? "100%" : 0, height: hovered ? "auto" : 0 }}
+          style={{ width: hovered ? "100%" : 0, height: hovered ? "27vh" : 0 }}
         />
         <div className="card-body px-2 ">
           <div className="row m-0 w-100 ">
