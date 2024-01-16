@@ -35,6 +35,44 @@ import image34 from "../media/shopmedia/pro13/The indian peeps b&w.jpg";
 import image35 from "../media/shopmedia/pro14/minimalistic trees 3.jpg";
 import image36 from "../media/shopmedia/pro15/SITE ANALYSIS ESSENTIALS.jpg";
 import image37 from "../media/shopmedia/pro16/2 pattern swatches by studio_articulation.jpg";
+import image38 from "../media/shopmedia/pro17/patter swatches by studio_articulation FOR GUMROAD.jpg";
+import image39 from "../media/shopmedia/pro18/Artboard 1 copyldpi.jpg";
+import image40 from "../media/shopmedia/pro18/Artboard 1ldpi.jpg";
+import image41 from "../media/shopmedia/pro19/1 vector human figures(girl gang).jpg";
+import image42 from "../media/shopmedia/pro20/minimalistic trees pack 2.jpg";
+import image43 from "../media/shopmedia/pro20/VECTOR MINIMALISTIC PACK 2.jpg";
+import image44 from "../media/shopmedia/pro21/Artboard 1 copyldpi 2.jpg";
+import image45 from "../media/shopmedia/pro21/Artboard 1 copyldpi.jpg";
+import image46 from "../media/shopmedia/pro21/Artboard 1ldpi 22.jpg";
+import image47 from "../media/shopmedia/pro21/Artboard 1ldpi.jpg";
+import image48 from "../media/shopmedia/pro22/FRONT PAGE INSTA POST 3.jpg";
+import image49 from "../media/shopmedia/pro22/FRONT PAGE INSTA POST.jpg";
+import image50 from "../media/shopmedia/pro22/FRONT PAGE INSTA POST2.jpg";
+import image51 from "../media/shopmedia/pro23/TREE SILHOUETTE 2 colourful .jpg";
+import image52 from "../media/shopmedia/pro23/TREE SILHOUETTE 2.jpg";
+import image53 from "../media/shopmedia/pro23/TREE SILHOUETTES 2 PACKAGING.jpg";
+import image54 from "../media/shopmedia/pro24/annotation.jpg";
+import image55 from "../media/shopmedia/pro24/architecture diagram symbol amd annotations.jpg";
+import image56 from "../media/shopmedia/pro25/DRY TREES SILHOUETTE packaging.jpg";
+import image57 from "../media/shopmedia/pro25/vutysb10yjlqzpki7sp8exf7k5zn.jpg";
+import image58 from "../media/shopmedia/pro26/2-box-packaging-mockup-01.jpg";
+import image59 from "../media/shopmedia/pro26/9j5vq8dahfhjy1vj42rsvd33gxax.webp";
+import image60 from "../media/shopmedia/pro27/dsd.jpg";
+import image61 from "../media/shopmedia/pro27/xa228x3wnlu6v3llf5kwpfmq402k.jpg";
+import image62 from "../media/shopmedia/pro28/TEXTURE PACK box-packaging-mockup-04.jpg";
+import image63 from "../media/shopmedia/pro29/north symbol packaging.jpg";
+import image64 from "../media/shopmedia/pro29/ntkbm0wyvynvaal5qe3biryjsh83.jpg";
+import image65 from "../media/shopmedia/pro30/j8q3hmpymrvzo25ybzieg1i3bp8i.webp";
+import image66 from "../media/shopmedia/pro30/TREE SILHOUETTES VOL.1.jpg";
+import image67 from "../media/shopmedia/pro31/HANDMADE TREES CUTOUT package mockup.jpg";
+import image68 from "../media/shopmedia/pro31/handmade trees package.jpg";
+import image69 from "../media/shopmedia/pro32/botnic plant brush preset.jpg";
+import image70 from "../media/shopmedia/pro32/BOTNICAL PLANT BRUSH PRESET package mockup.jpg";
+import image71 from "../media/shopmedia/pro33/people in offices 3.jpg";
+import image72 from "../media/shopmedia/pro33/people in offices mokeup.jpg";
+import image73 from "../media/shopmedia/pro34/Postal package mockup.jpg";
+import image74 from "../media/shopmedia/pro34/MINIMALISTIC TREES 2.jpg";
+import image75 from "../media/shopmedia/pro34/MINIMALISTIC TREES.jpg";
 const Shopdata = [
   {
     name: "Colorful illustrative trees pack 1",
@@ -71,6 +109,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
+    link: "https://studioarticulation.gumroad.com/l/gepai?layout=profile",
     cetagory: "",
     filetype: "ZIP file",
     images: [image1, image2],
@@ -117,6 +156,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
+    link: "https://studioarticulation.gumroad.com/l/tsrxa?layout=profile",
     cetagory: "",
     filetype: "ZIP file",
     images: [image3, image3],
@@ -160,6 +200,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
+    link: "https://studioarticulation.gumroad.com/l/zsabq?layout=profile",
     cetagory: "",
     filetype: "ZIP file",
     images: [image4, image4],
@@ -219,6 +260,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
+    link: "https://studioarticulation.gumroad.com/l/veosh?layout=profile",
     cetagory: "",
     filetype: "ZIP file",
     images: [image6, image5],
@@ -227,6 +269,7 @@ const Shopdata = [
     name: "SKETCHY HUMANS",
     price: "$1",
     size: "24.8 MB",
+    link: "https://studioarticulation.gumroad.com/l/npnde?layout=profile",
     description: (
       <>
         SKETCHY HUMANS will help generate a sense of scale in the drawing and
@@ -338,6 +381,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
+    link: "https://studioarticulation.gumroad.com/l/istdx?layout=profile",
     cetagory: "",
     filetype: "ZIP file",
     images: [
@@ -389,6 +433,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
+    link: "https://studioarticulation.gumroad.com/l/ngoea?layout=profile",
     cetagory: "",
     filetype: "ZIP file",
     images: [image17, image18, image19, image20, image21],
@@ -397,6 +442,7 @@ const Shopdata = [
     name: "Sketchy trees 2",
     price: "$2",
     size: "17.7 MB",
+    link: "https://studioarticulation.gumroad.com/l/koqod?layout=profile",
     description: (
       <>
         Sketchy Trees 2 will help generate a sense of scale in the drawing and
@@ -441,6 +487,7 @@ const Shopdata = [
     name: "HANDMADE VECTOR INDOOR PLANTS",
     price: "$3",
     size: "103 MB",
+    link: "https://studioarticulation.gumroad.com/l/zzonxr?layout=profile",
     description: (
       <>
         Introducing our Vector-based Indoor Plant Illustrator Resource Pack,
@@ -777,444 +824,607 @@ const Shopdata = [
     images: [image37, image37],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "PATTERN SWATCHES 1",
+    price: "$1",
+    size: "3.38 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        Add our new pattern swatches to your library.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        this pack contains 16 different ai vector pattern swatches. These vector
+        pattern swatches will help you create amazing Post-digital images,
+        AutoCAD plan renders, elevation and section renders, etc.
+        <br />
+        Enjoy! And don't forget to tag us on Instagram whenever you use them so
+        that we can repost your amazing work.
+        <br />
+        @studio_articulation
+        <br />
+        imp: just delete the black box outside the swatches and drag them to
+        your illustrator swatches panel and you are ready to add the pattern
+        anywhere in any shape.
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        the pack comes following file format.
+        <br />
+        AI file
+        <br />
+        JPEG file
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image38, image38],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "Abstract hoomans pack",
     price: "$3",
-    size: "40.7 MB",
+    size: "4.97 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add our new 'Abstract hoomans' in your library.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        Vector human figures help in generating a sense of scale in the drawing
+        and making them aesthetically pleasing.
+        <br />
+        his pack contains 25+ different ai vector-based human figures. These
+        vector figures will help you create amazing Post-digital images!
+        <br />
+        Enjoy! And don't forget to tag us on Instagram whenever you use them so
+        that we can repost your amazing work.
+        <br />
+        @studio_articulation
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        <br />
+        the pack comes following file format.
+        <br />
+        AI file
+        <br />
+        JPEG file
+        <br />
+        CAD file
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image40, image39],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "Vector human figures (girl gang)",
+    price: "$4",
+    size: "11.4 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add our new 'Vector human figures(girl gang)' in your library.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        Vector human figures help in generating a sense of scale in the drawing
+        and making them aesthetically pleasing.
+        <br />
+        his pack contains 8 different ai vector-based human figures. These
+        vector figures will help you create amazing Post-digital images!
+        <br />
+        Enjoy! And don't forget to tag us on Instagram whenever you use them so
+        that we can repost your amazing work.
+        <br />
+        @studio_articulation
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        <br />
+        the pack comes following file format.
+        <br />
+        AI file
+        <br />
+        JPEG file
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image41, image41],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "Vector minimalistic trees pack 2",
+    price: "$5",
+    size: "1.74 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add our new vector-based minimalistic trees pack 2'in your library.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        it helps in adding a sense of scale in any type of architectural
+        illustration, elevation, section, diagram, model, etc
+        <br />
+        this pack had contain an ai file, and jpegs of more than 25+ vector
+        trees.
+        <br />
+        the pack comes following file format.
+        <br />
+        AI file
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image42, image43],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "architecture diagram- annotations and symbols 2",
     price: "$3",
-    size: "40.7 MB",
+    size: "12.3 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        Add our new architecture diagram - annotation and symbols' +
+        architecture diagram - annotation and symbols'2 in your library.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        SYMBOLS AND ANNOTATIONS helps in presenting site analysis and concept
+        level diagrams in easy, better and attractive way.
+        <br />
+        we present you pack of different types of arrows,sunpath diagrams,
+        connecting lines, arrows and colour palettes.
+        <br />
+        this pack had contain ai file, jpegs of more than 30 architecture
+        annotation and symbols.
+        <br />
+        the pack comes following file format.
+        <br />
+        2 AI file
+        <br />
+        2 JPEG file
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image44, image45, image46, image47],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "MINIMALISTIC PORTFOLIO FRONT PAGES",
     price: "$3",
-    size: "40.7 MB",
+    size: "47.3 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        Introducing minimalistic, clean, a3 professional architecture portfolio
+        front pages with free font styles.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        compatible with Photoshop, the pack contain editable PSD file with jpegs
+        and font styles.
+        <br />
+        extract the ZIP file with WinRAR to the folder.
+        <br />
+        for printing export pdf print
+        <br />
+        for digital printing use pdf interactive.
+        <br />
+        the pack comes with following file format.
+        <br />
+        PSD file
+        <br />
+        JPEG
+        <br />
+        FREE FONT STYLES
+        <br />
+        thank you for supporting the platform @studio_articulation
+        <br />
+        note: while using our pack you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image48, image49, image50],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "TREE SILHOUETTES 2",
     price: "$3",
-    size: "40.7 MB",
+    size: "11.5 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add another human brush preset in your library the ' TREE SILHOUETTES 2'
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack had contain more than 20+ tree silhouette brush preset ABR
+        files [compatible with photoshop]
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PNG file
+        <br />
+        JPEG
+        <br />
+        file thank you for supporting the platform @studio_articulation
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image51, image52, image53],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "architecture diagram - symbols and annotations",
     price: "$3",
-    size: "40.7 MB",
+    size: "7.81 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add our new architecture diagram - annotation and symbols' in your
+        library.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        SYMBOLS AND ANNOTATIONS helps in presenting site analysis and concept
+        level diagrams in easy, better and attractive way.
+        <br />
+        we present you pack of different types of arrows,sunpath diagrams,
+        connecting lines, arrows and colour palettes.
+        <br />
+        this pack had contain ai file, jpegs of more than 30 architecture
+        annotation and symbols.
+        <br />
+        the pack comes following file format.
+        <br />
+        AI file
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image54, image55],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "dry trees silhouette brush preset",
     price: "$3",
-    size: "40.7 MB",
+    size: "4.25 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add another human brush preset in your library the ' dry trees
+        silhouette'
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack had contain more than 20 human figure brush preset ABR files
+        (compatible with photoshop )
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PNG file
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image56, image57],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "Handmade tree {plan} volume 2",
+    price: "$5",
+    size: "",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        ALL NEW handmade watercolour trees in plan cutout pack volume 2 for
+        architecture visualization and presentation.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        which can be used in architecture illustrations and photoshop elevation
+        renders .
+        <br />
+        In this pack you will get 20 high quality trees in a psd , png and pdf
+        format.
+        <br />
+        the pack comes following file format.
+        <br />
+        PSD file
+        <br />
+        JPEG file
+        <br />
+        PNG file
+        <br />
+        PDF file thank you for supporting the platform @studio_articulationnote:
+        while using our preset you can give credit to articulation. if you
+        publish your work on Instagram or LinkedIn please tag us at
+        @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image58, image59],
   },
   {
-    name: "Colorful illustrative trees pack 1",
+    name: "sanna people {human scale brush preset}",
     price: "$3",
-    size: "40.7 MB",
+    size: "340 KB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add another human brush preset in your library the ' SANNA PEOPLE'
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack had contain more than 25 human figure brush preset ABR files
+        (compatible with photoshop)
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PNG file
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image60, image61],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "TEXTURE PACK VOL.1",
+    price: "$0",
+    size: "3.69 MB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        this pack had contain 15 high-quality texture jpeg
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        the pack comes following file format.
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting our platform @studio_articulation
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at
+        @studio_articulation.
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image62, image62],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "NORTH SYMBOLS",
+    price: "$1",
+    size: "814 KB",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add another human brush preset in your library the ' NORTH SYMBOLS '
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack had contain more than 20 NORTH SYMBOL brush preset ABR files
+        [compatible with photoshop]
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PNG file
+        <br />
+        PDF file
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting our platform @studio_articulation
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at
+        @studio_articulation.
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image63, image64],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "TREE SILHOUETTES brush preset",
+    price: "$2",
+    size: "",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        Add another human brush preset in your library the ' TREE SILHOUETTES '
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack had contain more than 20+ tree silhouette brush preset ABR
+        files [compatible with photoshop]
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PNG file
+        <br />
+        PDF file
+        <br />
+        JPEG
+        <br />
+        file thank you for supporting the platform @studio_articulation
+        <br />
+        note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image66, image65],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "HANDMADE WATERCOLOUR TREES ( cutout pack )",
+    price: "$2",
+    size: "9 Items",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        ALL NEW handmade watercolour trees cutout pack for architecture
+        visualization and presentation.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        which can be used in architecture illustrations and photoshop elevation
+        renders .
+        <br />
+        this pack contains high-quality 9 trees cutouts PSD, PNG, PDF, and JPEG
+        files
+        <br />
+        the pack comes following file format.
+        <br />
+        PSD file
+        <br />
+        JPEG file
+        <br />
+        PNG file
+        <br />
+        PDF file
+        <br />
+        thank you for supporting the platform @studio_articulation
+        <br />
+        note: while using our preset you can give credit to articulation. if you
+        publish your work on Instagram or LinkedIn please tag us at
+        @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image67, image68],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "botanical plant brush preset",
+    price: "$1",
+    size: "15+ items",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add another human brush preset in your library the ' botanical plants
+        brush preset '
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack contain more than 15+ plant brush preset ABR files [compatible
+        with photoshop]
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PSD file
+        <br />
+        JPEG file
+        <br />
+        thank you for supporting the platform @articulation_21
+        <br />
+        note: while using our preset you can give credit to articulation_21. if
+        you publish your work on Instagram or LinkedIn please tag us at
+        @articulation_21
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image70, image69],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "people in offices { human figure brush preset }",
+    price: "$0",
+    size: "20+ Items",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        add another human brush preset in your library the ' people in offices '
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        brushes drastically improve your workflow and enhance the aesthetics of
+        your presentation and generate a sense of scale with just one click.
+        <br />
+        this pack had contain more than 20+ human figure brush preset ABR files
+        [compatible with photoshop]
+        <br />
+        the pack comes following file format.
+        <br />
+        ABR file
+        <br />
+        PNG file
+        <br />
+        PDF file
+        <br />
+        JPEG file thank you for supporting the platform @studio_articulation
+        <br />
+        note: while using our preset you can give credit to studio_articulation.
+        if you publish your work on Instagram or LinkedIn please tag us at
+        @studio_articulation
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image72, image71],
   },
   {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
+    name: "MINIMALISTIC TREE PACKAGE",
+    price: "$150",
+    size: "20+ Items",
     description: (
       <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
+        THE MINIMALISTIC TREES PACKAGE FOR ARCHITECTURE VISUALISATION AND
+        PRESENTATION.
         <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
+        THE PACKAGE CONTAINS MORE THAN 20+ HIGH-QUALITY TREES ILLUSTRATIONS.
+        <br />
+        FILE TYPe - AI, PDF,PNG
       </>
     ),
     cetagory: "",
     filetype: "ZIP file",
-    images: [image1, image2],
-  },
-  {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
-    description: (
-      <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
-        <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
-      </>
-    ),
-    cetagory: "",
-    filetype: "ZIP file",
-    images: [image1, image2],
-  },
-  {
-    name: "Colorful illustrative trees pack 1",
-    price: "$3",
-    size: "40.7 MB",
-    description: (
-      <>
-        We are introducing our Vector-based colorful ILLUSTRATIVE TREE PACK,
-        designed specifically for architecture students and related disciplines.
-        This resource pack is an invaluable asset that offers numerous benefits
-        and enhances the creative process in architectural design.
-        <br />
-        The vector-based TREES Pack empowers architecture students to elevate
-        their design presentations, foster creativity, and develop a strong
-        visual language. It offers convenience, consistency, and a rich array of
-        design possibilities, making it an essential tool for those passionate
-        about architectural illustration and creating impactful designs.
-      </>
-    ),
-    cetagory: "",
-    filetype: "ZIP file",
-    images: [image1, image2],
+    images: [image73, image74, image75],
   },
 ];
 
