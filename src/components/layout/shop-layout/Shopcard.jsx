@@ -19,7 +19,7 @@ function Shopcard({ data }) {
       }}
       transition={{ duration: 1, delay: 0.4 }}
     >
-      <a href={data.link}>
+      <a href={data.link} target="_blank">
         <div
           className="card p-0 border-light border-3 shadow-sm rounded-2 overflow-hidden "
           onMouseEnter={() => setHovered(true)}
@@ -61,7 +61,7 @@ function Shopcard({ data }) {
                 {data.name}
               </h5>
               <div className="btn align-self-start col-2 text-center p-0  text-danger fw-bolder">
-                {data.price}
+                {data.price !== "$0" ? data.price : "Free"}
               </div>
               <div className="col-12 px-0 mt-1 pb-0" style={{ height: "20px" }}>
                 <ul className="list-unstyled p-0 d-flex justify-content-start ">

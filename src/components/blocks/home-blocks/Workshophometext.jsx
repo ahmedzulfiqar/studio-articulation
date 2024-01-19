@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import logo from "../../media/adobe-illustrator.png";
+import { Link } from "react-router-dom";
 function Workshophometext() {
   return (
     <motion.div
@@ -31,7 +32,7 @@ function Workshophometext() {
           <div class="card-body ">
             <blockquote class="blockquote m-0  ">
               <p className="text-uppercase fw-bolder fs-5 text-dark">
-               Interactive Adobe Illustrator Workshop
+                Interactive Adobe Illustrator Workshop
               </p>
               <p className="small text-dark opacity-75">
                 Interactive & Beginner Friendly Workshop, aiming to understand
@@ -43,14 +44,14 @@ function Workshophometext() {
             </blockquote>
           </div>
         </div>
-        <div className="ps-lg-1 pt-lg-2">
+        <Link className="ps-lg-1 pt-lg-2" to="/workshop">
           <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-blue  border-0 fw-bolder shadow-sm">
             Learn More
           </div>
           <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-blue  border-0 fw-bolder shadow-sm">
             Learn More
           </div>
-        </div>
+        </Link>
       </div>
     </motion.div>
   );

@@ -5,6 +5,8 @@ import Header from "../pages/Header";
 import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Shop from "../pages/Shop";
+import Workshop from "../pages/Workshop";
+import Contact from "../pages/Contact";
 function RouterFiles() {
   const [classe, setclasse] = useState("");
   return (
@@ -16,6 +18,8 @@ function RouterFiles() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/workshop" element={<Workshop />} />
       </Routes>
     </div>
   );

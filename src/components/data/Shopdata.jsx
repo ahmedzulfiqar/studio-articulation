@@ -110,7 +110,7 @@ const Shopdata = [
       </>
     ),
     link: "https://studioarticulation.gumroad.com/l/gepai?layout=profile",
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image1, image2],
   },
@@ -157,7 +157,7 @@ const Shopdata = [
       </>
     ),
     link: "https://studioarticulation.gumroad.com/l/tsrxa?layout=profile",
-    cetagory: "",
+    category: "Texture",
     filetype: "ZIP file",
     images: [image3, image3],
   },
@@ -201,7 +201,7 @@ const Shopdata = [
       </>
     ),
     link: "https://studioarticulation.gumroad.com/l/zsabq?layout=profile",
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image4, image4],
   },
@@ -261,7 +261,7 @@ const Shopdata = [
       </>
     ),
     link: "https://studioarticulation.gumroad.com/l/veosh?layout=profile",
-    cetagory: "",
+    category: "CAD Blocks",
     filetype: "ZIP file",
     images: [image6, image5],
   },
@@ -303,7 +303,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Human",
     filetype: "ZIP file",
     images: [image7, image8],
   },
@@ -382,7 +382,7 @@ const Shopdata = [
       </>
     ),
     link: "https://studioarticulation.gumroad.com/l/istdx?layout=profile",
-    cetagory: "",
+    category: "Furniture",
     filetype: "ZIP file",
     images: [
       image15,
@@ -434,7 +434,7 @@ const Shopdata = [
       </>
     ),
     link: "https://studioarticulation.gumroad.com/l/ngoea?layout=profile",
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image17, image18, image19, image20, image21],
   },
@@ -479,7 +479,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image22, image22],
   },
@@ -526,7 +526,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image23, image24, image25, image26],
   },
@@ -574,7 +574,8 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    link: "https://studioarticulation.gumroad.com/l/wygnas?layout=profile",
+    category: "Project Resource Files",
     filetype: "ZIP file",
     images: [image27, image28],
   },
@@ -615,14 +616,16 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Human",
     filetype: "ZIP file",
     images: [image30, image29],
+    link: "https://studioarticulation.gumroad.com/l/fyiks?layout=profile",
   },
   {
     name: "Sketchy trees and human figure",
     price: "0$",
     size: "2.88 MB",
+    link: "https://studioarticulation.gumroad.com/l/rjmcb?layout=profile",
     description: (
       <>
         Sketchy trees and human figures will help generate a sense of scale in
@@ -654,7 +657,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image31, image31],
   },
@@ -697,7 +700,8 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    link: "https://studioarticulation.gumroad.com/l/atnkv?layout=profile",
+    category: "Human",
     filetype: "ZIP file",
     images: [image33, image34, image32],
   },
@@ -705,6 +709,7 @@ const Shopdata = [
     name: "VECTOR MINIMALISTIC TREES PACK 3",
     price: "$2",
     size: "8.68 MB",
+    link: "https://studioarticulation.gumroad.com/l/gsyma?layout=profile",
     description: (
       <>
         add our new vector-based minimalistic trees pack 3'in your library.
@@ -726,7 +731,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image35, image35],
   },
@@ -777,13 +782,15 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    link: "https://studioarticulation.gumroad.com/l/vrnqbd?layout=profile",
+    category: "Project Resource Files",
     filetype: "ZIP file",
     images: [image36, image36],
   },
   {
     name: "2 PATTERN SWATCHES for illustrator",
     price: "$2",
+    link: "https://studioarticulation.gumroad.com/l/cknoy?layout=profile",
     size: "8.01 MB",
     description: (
       <>
@@ -819,12 +826,13 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Patterns",
     filetype: "ZIP file",
     images: [image37, image37],
   },
   {
     name: "PATTERN SWATCHES 1",
+    link: "https://studioarticulation.gumroad.com/l/pyfzi?layout=profile",
     price: "$1",
     size: "3.38 MB",
     description: (
@@ -861,13 +869,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Patterns",
     filetype: "ZIP file",
     images: [image38, image38],
   },
   {
     name: "Abstract hoomans pack",
     price: "$3",
+    link: "https://studioarticulation.gumroad.com/l/sfowe?layout=profile",
     size: "4.97 MB",
     description: (
       <>
@@ -904,13 +913,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Human",
     filetype: "ZIP file",
     images: [image40, image39],
   },
   {
     name: "Vector human figures (girl gang)",
     price: "$4",
+    link: "https://studioarticulation.gumroad.com/l/nucoc?layout=profile",
     size: "11.4 MB",
     description: (
       <>
@@ -945,13 +955,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Human",
     filetype: "ZIP file",
     images: [image41, image41],
   },
   {
     name: "Vector minimalistic trees pack 2",
     price: "$5",
+    link: "https://studioarticulation.gumroad.com/l/zqgrf?layout=profile",
     size: "1.74 MB",
     description: (
       <>
@@ -975,13 +986,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image42, image43],
   },
   {
     name: "architecture diagram- annotations and symbols 2",
     price: "$3",
+    link: "https://studioarticulation.gumroad.com/l/etcew?layout=profile",
     size: "12.3 MB",
     description: (
       <>
@@ -1009,7 +1021,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Symbols & Annotations",
     filetype: "ZIP file",
     images: [image44, image45, image46, image47],
   },
@@ -1017,6 +1029,7 @@ const Shopdata = [
     name: "MINIMALISTIC PORTFOLIO FRONT PAGES",
     price: "$3",
     size: "47.3 MB",
+    link: "https://studioarticulation.gumroad.com/l/kildy?layout=profile",
     description: (
       <>
         Introducing minimalistic, clean, a3 professional architecture portfolio
@@ -1045,13 +1058,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Project Resource Files",
     filetype: "ZIP file",
     images: [image48, image49, image50],
   },
   {
     name: "TREE SILHOUETTES 2",
     price: "$3",
+    link: "https://studioarticulation.gumroad.com/l/irsrx?layout=profile",
     size: "11.5 MB",
     description: (
       <>
@@ -1077,7 +1091,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image51, image52, image53],
   },
@@ -1085,6 +1099,7 @@ const Shopdata = [
     name: "architecture diagram - symbols and annotations",
     price: "$3",
     size: "7.81 MB",
+    link: "https://studioarticulation.gumroad.com/l/ewqxd?layout=profile",
     description: (
       <>
         add our new architecture diagram - annotation and symbols' in your
@@ -1111,13 +1126,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Symbols & Annotations",
     filetype: "ZIP file",
     images: [image54, image55],
   },
   {
     name: "dry trees silhouette brush preset",
     price: "$3",
+    link: "https://studioarticulation.gumroad.com/l/uevjq?layout=profile",
     size: "4.25 MB",
     description: (
       <>
@@ -1144,7 +1160,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image56, image57],
   },
@@ -1152,6 +1168,7 @@ const Shopdata = [
     name: "Handmade tree {plan} volume 2",
     price: "$5",
     size: "",
+    link: "https://studioarticulation.gumroad.com/l/jclvn?layout=profile",
     description: (
       <>
         ALL NEW handmade watercolour trees in plan cutout pack volume 2 for
@@ -1177,13 +1194,14 @@ const Shopdata = [
         @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image58, image59],
   },
   {
     name: "sanna people {human scale brush preset}",
     price: "$3",
+    link: "https://studioarticulation.gumroad.com/l/gunsyo?layout=profile",
     size: "340 KB",
     description: (
       <>
@@ -1209,7 +1227,7 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Human",
     filetype: "ZIP file",
     images: [image60, image61],
   },
@@ -1217,6 +1235,7 @@ const Shopdata = [
     name: "TEXTURE PACK VOL.1",
     price: "$0",
     size: "3.69 MB",
+    link: "https://studioarticulation.gumroad.com/l/igngd?layout=profile",
     description: (
       <>
         this pack had contain 15 high-quality texture jpeg
@@ -1232,7 +1251,7 @@ const Shopdata = [
         @studio_articulation.
       </>
     ),
-    cetagory: "",
+    category: "Texture",
     filetype: "ZIP file",
     images: [image62, image62],
   },
@@ -1240,6 +1259,7 @@ const Shopdata = [
     name: "NORTH SYMBOLS",
     price: "$1",
     size: "814 KB",
+    link: "https://studioarticulation.gumroad.com/l/ipesxv?layout=profile",
     description: (
       <>
         add another human brush preset in your library the ' NORTH SYMBOLS '
@@ -1267,7 +1287,7 @@ const Shopdata = [
         @studio_articulation.
       </>
     ),
-    cetagory: "",
+    category: "Symbols & Annotations",
     filetype: "ZIP file",
     images: [image63, image64],
   },
@@ -1275,6 +1295,7 @@ const Shopdata = [
     name: "TREE SILHOUETTES brush preset",
     price: "$2",
     size: "",
+    link: "https://studioarticulation.gumroad.com/l/vrtrd?layout=profile",
     description: (
       <>
         Add another human brush preset in your library the ' TREE SILHOUETTES '
@@ -1301,13 +1322,14 @@ const Shopdata = [
         your work on Instagram or LinkedIn please tag us at @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image66, image65],
   },
   {
     name: "HANDMADE WATERCOLOUR TREES ( cutout pack )",
     price: "$2",
+    link: "https://studioarticulation.gumroad.com/l/nqsua?layout=profile",
     size: "9 Items",
     description: (
       <>
@@ -1337,13 +1359,14 @@ const Shopdata = [
         @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image67, image68],
   },
   {
     name: "botanical plant brush preset",
     price: "$1",
+    link: "https://studioarticulation.gumroad.com/l/bgnfk?layout=profile",
     size: "15+ items",
     description: (
       <>
@@ -1371,7 +1394,7 @@ const Shopdata = [
         @articulation_21
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image70, image69],
   },
@@ -1379,6 +1402,7 @@ const Shopdata = [
     name: "people in offices { human figure brush preset }",
     price: "$0",
     size: "20+ Items",
+    link: "https://studioarticulation.gumroad.com/l/pqzdq?layout=profile",
     description: (
       <>
         add another human brush preset in your library the ' people in offices '
@@ -1404,13 +1428,14 @@ const Shopdata = [
         @studio_articulation
       </>
     ),
-    cetagory: "",
+    category: "Abr Brushes",
     filetype: "ZIP file",
     images: [image72, image71],
   },
   {
     name: "MINIMALISTIC TREE PACKAGE",
     price: "$150",
+    link: "https://studioarticulation.gumroad.com/l/otddk?layout=profile",
     size: "20+ Items",
     description: (
       <>
@@ -1422,10 +1447,39 @@ const Shopdata = [
         FILE TYPe - AI, PDF,PNG
       </>
     ),
-    cetagory: "",
+    category: "Vegetation",
     filetype: "ZIP file",
     images: [image73, image74, image75],
   },
 ];
+const architecturalElements = [
+  {
+    category: "Vegetation",
+  },
+  {
+    category: "Human",
+  },
+  {
+    category: "Patterns",
+  },
+  {
+    category: "Furniture",
+  },
+  {
+    category: "Texture",
+  },
+  {
+    category: "CAD Blocks",
+  },
+  {
+    category: "Symbols & Annotations",
+  },
+  {
+    category: "Abr Brushes",
+  },
+  {
+    category: "Project Resource Files",
+  },
+];
 
-export default Shopdata;
+export { Shopdata, architecturalElements };

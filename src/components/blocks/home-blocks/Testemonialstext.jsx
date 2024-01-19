@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ReviewCard from "../../atoms/about-atoms/ReviewCard";
+import { Link } from "react-router-dom";
 
 function Testemonialstext() {
   const rivewaray = [
@@ -115,14 +116,14 @@ function Testemonialstext() {
             );
           })}
         </Swiper>
-        <div className="ps-lg-1 pt-lg-2">
+        <Link className="ps-lg-1 pt-lg-2" to="/workshop">
           <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-green  border-0 fw-bolder shadow-sm">
             Workshop
           </div>
           <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-green  border-0 fw-bolder shadow-sm">
             Workshop
           </div>
-        </div>
+        </Link>
       </div>
     </motion.div>
   );

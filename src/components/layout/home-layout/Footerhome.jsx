@@ -8,6 +8,7 @@ function Footerhome() {
         scrollSnapAlign: "center",
         backgroundSize: "cover",
       }}
+      id="vroom"
     >
       <section class="py-2  text-center">
         <a

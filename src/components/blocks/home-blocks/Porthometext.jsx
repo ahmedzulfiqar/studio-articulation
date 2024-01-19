@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import logo from "../../media/adobe-illustrator.png";
+import { Link } from "react-router-dom";
 function Porthometext() {
   return (
     <motion.div
@@ -49,14 +50,14 @@ function Porthometext() {
             </blockquote>
           </div>
         </div>
-        <div className="ps-lg-1 pt-lg-2">
+        <Link className="ps-lg-1 pt-lg-2" to="/portfolio">
           <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-orange  border-0 fw-bolder shadow-sm">
             Learn More
           </div>
           <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-orange  border-0 fw-bolder shadow-sm">
             Learn More
           </div>
-        </div>
+        </Link>
       </div>
     </motion.div>
   );

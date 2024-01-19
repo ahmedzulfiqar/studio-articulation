@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Abouthomeetext() {
   return (
-    <motion.div
-      className="col-lg-6  justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center"
-    >
+    <motion.div className="col-lg-6  justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center">
       <div className="p-0 w-100">
         <div className="display-5 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-lg-block d-none">
           About Me <br />
@@ -39,12 +37,18 @@ function Abouthomeetext() {
           design and to create images that are both beautiful and meaningful.
         </p>
         <div className="ps-lg-1 pt-lg-2">
-          <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-purple  border-0 fw-bolder shadow-sm">
+          <Link
+            className="btn btn-lg d-md-inline-block d-none   text-light  bg-purple  border-0 fw-bolder shadow-sm"
+            to="/about"
+          >
             About Me
-          </div>
-          <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-purple  border-0 fw-bolder shadow-sm">
+          </Link>
+          <Link
+            className="btn btn-lg d-md-none d-inline-block  text-light  bg-purple  border-0 fw-bolder shadow-sm"
+            to="/about"
+          >
             About Me
-          </div>
+          </Link>
         </div>
       </div>
     </motion.div>

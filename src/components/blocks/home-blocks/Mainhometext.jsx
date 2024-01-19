@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../atoms/root-atoms/Button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 function Mainhometext() {
   return (
     <motion.div
@@ -33,9 +34,12 @@ function Mainhometext() {
           <span className="text-red"> Visualisation </span>studio
         </div>
         <div className="ps-lg-1 pt-lg-2">
-          <div className="btn btn-lg mainbtn px-4 border-0 fw-bolder py-lg-3 py-2 shadow-sm">
+          <Link
+            className="btn btn-lg mainbtn px-4 border-0 fw-bolder py-lg-3 py-2 shadow-sm"
+            to="/portfolio"
+          >
             Portfolio
-          </div>
+          </Link>
         </div>
       </div>
     </motion.div>

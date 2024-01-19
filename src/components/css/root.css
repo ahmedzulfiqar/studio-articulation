@@ -99,11 +99,39 @@ p {
   scroll-snap-type: y mandatory !important;
   scroll-behavior: smooth !important;
 }
+.scroller::-webkit-scrollbar {
+  display: block !important;
+  height: 5px !important;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background-color: var(--red) !important;
+  cursor: grab !important;
+  border-radius: 20px;
+}
+.scroller div {
+  cursor: pointer !important;
+}
 @media screen and (max-width: 1500px) {
   .homer {
     scroll-snap-type: none !important;
     scroll-behavior: smooth !important;
   }
+  .scroller::-webkit-scrollbar {
+    display: none !important;
+    height: 5px !important;
+  }
+
+  .scroller::-webkit-scrollbar-thumb {
+    background-color: #4939bb !important;
+    border-radius: 20px;
+  }
 }
 p {
+}
+.seting {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

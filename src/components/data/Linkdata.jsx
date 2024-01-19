@@ -1,7 +1,7 @@
 const Linkdata = [
   { text: "Home", path: "/home" },
   { text: "About Me", path: "/about" },
-  { text: "WorkShop", path: "" },
+  { text: "WorkShop", path: "/workShop" },
   { text: "Shop", path: "/shop" },
   { text: "Portfolio", path: "/portfolio" },
 ];
