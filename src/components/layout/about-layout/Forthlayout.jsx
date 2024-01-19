@@ -1,7 +1,7 @@
 import React from "react";
 import person from "../../media/unnamed.jpg";
 import { motion } from "framer-motion";
-import Svg6 from "../../utilities/Svg6";
+import Svg6 from "../../media/undraw_breaking_barriers_vnf3.png";
 function Forthlayout() {
   return (
     <div
@@ -25,7 +25,7 @@ function Forthlayout() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <img
-              src="https://tse4.mm.bing.net/th/id/OIG.VlphS1FCSDdnvyzsyL41?w=1024&h=1024&rs=1&pid=ImgDetMain"
+              src={Svg6}
               className="img-fluid"
               alt=""
             />

@@ -1,7 +1,7 @@
 import React from "react";
 import person from "../../media/unnamed.jpg";
 import { motion } from "framer-motion";
-import Svg6 from "../../media/10946462_4600152.jpg";
+import Svg6 from "../../media/undraw_Woman_ffrd.png";
 function Lastabout() {
   return (
     <div

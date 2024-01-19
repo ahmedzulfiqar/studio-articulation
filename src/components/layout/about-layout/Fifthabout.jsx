@@ -1,7 +1,7 @@
 import React from "react";
 import person from "../../media/unnamed.jpg";
 import { motion } from "framer-motion";
-import Svg6 from "../../media/blah.jpg";
+import Svg6 from "../../media/undraw_Complete_design_re_h75h.png";
 function Fifthabout() {
   return (
     <div

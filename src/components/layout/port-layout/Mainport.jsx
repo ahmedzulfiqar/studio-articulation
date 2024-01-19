@@ -24,48 +24,7 @@ function Mainport() {
       transition={{ duration: 1, delay: 1 }}
     >
       <div className="container ">
-        <motion.img
-          src={img2}
-          className="position-absolute d-lg-block d-none"
-          alt=""
-          style={{
-            width: "13vw",
-            top: "100px",
-            left: "7vw",
-          }}
-          viewport={{ once: true }}
-          initial="hidden"
-          whileInView="visible"
-          variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: {
-              opacity: 0,
-              scale: 0,
-            },
-          }}
-          transition={{ duration: 1, delay: 0.8 }}
-        />
-        <motion.img
-          src={img2}
-          className="position-absolute d-lg-block d-none"
-          alt=""
-          style={{
-            width: "13vw",
-            top: "100px",
-            right: "7vw",
-          }}
-          viewport={{ once: true }}
-          initial="hidden"
-          whileInView="visible"
-          variants={{
-            visible: { opacity: 1, scale: 1 },
-            hidden: {
-              opacity: 0,
-              scale: 0,
-            },
-          }}
-          transition={{ duration: 1, delay: 0.8 }}
-        />
+        
         <div className="row m-0 py-0  d-flex align-items-center justify-content-center ">
           <div className="col-lg-10 col-12 text-center">
             <div className="display-2 mb-lg-3 mb-0 text-uppercase fw-bolder d-md-block d-none">

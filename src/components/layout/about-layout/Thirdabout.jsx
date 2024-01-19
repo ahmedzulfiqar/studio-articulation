@@ -1,7 +1,7 @@
 import React from "react";
 import person from "../../media/unnamed.jpg";
 import { motion } from "framer-motion";
-import Svg6 from "../../media/9931121_4286886.jpg";
+import Svg6 from "../../media/undraw_Collaborating_re_l43g.png";
 function Thirdabout() {
   return (
     <div
