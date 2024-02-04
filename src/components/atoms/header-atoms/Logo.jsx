@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../media/1.png";
+import logo from "../../media/lgomain.jpeg";
 function Logo() {
   return (
     <div className="col-lg-1 col-6">

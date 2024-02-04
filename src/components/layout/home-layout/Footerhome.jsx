@@ -77,6 +77,26 @@ function Footerhome() {
                 <span className="text-"> Working </span>With{" "}
                 <span className="text-"> US </span> ?
               </div>
+              <div className="fs-5 my-2 mt-4 fw-bold text-red d-md-block d-none">
+                <a
+                  href="https://mail.google.com/mail/u/0/#search/Joinstudioarticulation%40gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red"
+                >
+                  Joinstudioarticulation@gmail.com
+                </a>
+              </div>
+              <div className=" my-2 mt-4 fw-bold text-red d-md-none d-block small">
+                <a
+                  href="https://mail.google.com/mail/u/0/#search/Joinstudioarticulation%40gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red small"
+                >
+                  Joinstudioarticulation@gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </div>
