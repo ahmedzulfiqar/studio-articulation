@@ -4,7 +4,7 @@ import logo from "../../media/adobe-illustrator.png";
 import { Link } from "react-router-dom";
 function Workshophometext() {
   return (
-    <div
+    <motion.div
       className="col-lg-6 justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-start"
       viewport={{ once: true }}
       initial="hidden"
@@ -53,7 +53,7 @@ function Workshophometext() {
           </div>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -14,7 +14,7 @@ function Contact() {
     >
       <div className="container h-100 d-lg-block d-none ">
         <div className="row m-0 h-100  justify-content-between">
-          <div
+          <motion.div
             className="col-lg-5 col-12 p-0 rounded-4 overflow-hidden align-self-center"
             viewport={{ once: true }}
             initial="hidden"
@@ -29,8 +29,8 @@ function Contact() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <Svg6 />
-          </div>
-          <div
+          </motion.div>
+          <motion.div
             className="col-lg-6 justify-content-center mt-lg-5  col-12 p-0 align-self-center d-flex align-items-center text-lg-start text-center"
             viewport={{ once: true }}
             initial="hidden"
@@ -67,12 +67,12 @@ function Contact() {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="container d-lg-none d-block ">
         <div className="row m-0 h-100 justify-content-between">
-          <div
+          <motion.div
             className="col-lg-5 col-12 p-0 rounded-4 overflow-hidden align-self-center"
             viewport={{ once: true }}
             initial="hidden"
@@ -87,8 +87,8 @@ function Contact() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <Svg6 />
-          </div>
-          <div
+          </motion.div>
+          <motion.div
             className="col-lg-6 justify-content-center mt-lg-5  col-12 p-0 align-self-center d-flex align-items-center text-lg-start text-center"
             viewport={{ once: true }}
             initial="hidden"
@@ -125,7 +125,7 @@ function Contact() {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ function Mobilelist({ open, setopen }) {
   }, [open]);
 
   return (
-    <div
+    <motion.div
       className="text-start start-0 bg-light mt-5 text-start pt-2 w-100 d-lg-none d-block"
       style={{ position: "absolute", zIndex: "10" }}
       animate={open ? "open" : "closed"}
@@ -34,7 +34,7 @@ function Mobilelist({ open, setopen }) {
       <div className="pt-2">
         <Button data={{ text: "Contact" }} />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
