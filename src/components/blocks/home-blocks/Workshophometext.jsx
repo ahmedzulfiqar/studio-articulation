@@ -19,10 +19,10 @@ function Workshophometext() {
       transition={{ duration: 1, delay: 0.3 }}
     >
       <div className="p-0 w-100">
-        <div className="display-2 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-lg-block d-none">
+        <div className="display-2 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
           Our <span className="text-blue"> Workshops</span>
         </div>
-        <div className="display-5 ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-lg-none d-block text-uppercase">
+        <div className="display-5 ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-xxl-none d-block text-uppercase">
           Our <span className="text-blue"> Workshops</span>
         </div>{" "}
         <div class="card border-0  shadow-sm my-4 ">

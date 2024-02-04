@@ -77,16 +77,16 @@ function Testemonialstext() {
       transition={{ duration: 1, delay: 0.3 }}
     >
       <div className="p-0 w-100">
-        <div className="display-2  px-5 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-lg-block d-none">
+        <div className="display-2  px-5 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
           What <span className="text-green">People</span> Say About Our{" "}
           <span className="text-green"> Workshop</span>
         </div>
-        <div className="display-6 ms-lg-1 mb-lg-4 mb-3 px-0 fw-bolder d-lg-none d-block text-uppercase">
+        <div className="display-6 ms-lg-1 mb-xxl-4 mb-3 px-lg-5 fw-bolder d-xxl-none d-block text-uppercase">
           What <span className="text-green">People</span> Say About
           <span className="text-green"> Our Workshop</span>
         </div>
         <Swiper
-          className="my-lg-5 my-4 pt-lg-5"
+          className="my-xxl-5 my-lg-2 my-3 pt-lg-5"
           slidesPerView={1}
           spaceBetween={10}
           keyboard={{

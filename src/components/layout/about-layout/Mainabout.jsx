@@ -23,13 +23,16 @@ function Mainabout() {
             }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            <div className="text-red text-uppercase fw-bolder display-3 mb-lg-4 mb-2">
+            <div className="text-red text-uppercase fw-bolder display-3 mb-lg-4 mb-2 d-xxl-block d-none">
+              Ritika Rathore
+            </div>{" "}
+            <div className="text-red text-uppercase fw-bolder display-5 mb-lg-4 mb-2 d-xxl-none d-block">
               Ritika Rathore
             </div>
-            <div className="display-6 mb-4 fw-bolder text-dark text-uppercase d-lg-block d-none">
+            <div className="display-6 mb-4 fw-bolder text-dark text-uppercase d-xxl-block d-none">
               Architectural Visionary and Illustrator
             </div>{" "}
-            <div className="fs-6 mb-2 fw-bolder text-dark text-uppercase  d-lg-none d-block">
+            <div className="fs-6 mb-3 fw-bolder text-dark text-uppercase  d-xxl-none d-block">
               Architectural Visionary and Illustrator
             </div>
             <p className="fs-5 mx-auto  mb-4 text-secondary opacity- fw-lighter d-lg-block d-none">

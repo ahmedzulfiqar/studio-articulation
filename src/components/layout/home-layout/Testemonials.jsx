@@ -14,7 +14,7 @@ function Testemonials() {
     >
       <motion.img
         src={img2}
-        className="position-absolute d-lg-block d-none"
+        className="position-absolute d-xxl-block d-none"
         alt=""
         style={{
           width: "8vw",
@@ -35,7 +35,7 @@ function Testemonials() {
       />
       <motion.img
         src={img2}
-        className="position-absolute d-lg-block d-none"
+        className="position-absolute d-xxl-block d-none"
         alt=""
         style={{
           width: "8vw",

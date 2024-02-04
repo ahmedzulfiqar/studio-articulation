@@ -27,10 +27,10 @@ function Mainport() {
         
         <div className="row m-0 py-0  d-flex align-items-center justify-content-center ">
           <div className="col-lg-10 col-12 text-center">
-            <div className="display-2 mb-lg-3 mb-0 text-uppercase fw-bolder d-md-block d-none">
+            <div className="display-2 mb-lg-3 mb-0 text-uppercase fw-bolder d-xxl-block d-none">
               Studio Articulation <span className="text-orange">Portfolio</span>
             </div>
-            <div className="display-3 mb-lg-3 mb-0 text-uppercase fw-bolder d-md-none d-block">
+            <div className="display-4 mb-lg-3 mb-0 text-uppercase fw-bolder d-xxl-none d-block">
               Studio Articulation <span className="text-orange">Portfolio</span>
             </div>
           </div>

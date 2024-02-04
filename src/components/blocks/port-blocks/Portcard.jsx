@@ -11,6 +11,7 @@ function Portcard({ data }) {
         src={data.img}
         alt=""
         className="img-fluid h-100"
+        loading="lazy"
         onLoad={() => setLoad(false)}
       />
       {load && (

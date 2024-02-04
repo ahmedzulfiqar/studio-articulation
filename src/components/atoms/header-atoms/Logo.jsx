@@ -5,7 +5,7 @@ function Logo() {
     <div className="col-lg-1 col-6">
       <img
         src={logo}
-        className="img-fluid d-lg-block d-none"
+        className="img-fluid d-xxl-block d-none"
         alt=""
         style={{
           width: "60px",
@@ -13,7 +13,7 @@ function Logo() {
       />
       <img
         src={logo}
-        className="img-fluid d-lg-none d-block"
+        className="img-fluid d-xxl-none d-block"
         alt=""
         style={{
           width: "40px",

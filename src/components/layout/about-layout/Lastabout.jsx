@@ -1,7 +1,7 @@
 import React from "react";
 import person from "../../media/unnamed.jpg";
 import { motion } from "framer-motion";
-import Svg6 from "../../media/undraw_Woman_ffrd.png";
+import Svg6 from "../../media/blah5.png";
 function Lastabout() {
   return (
     <div
@@ -40,13 +40,16 @@ function Lastabout() {
             }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            <div className="text-red text-uppercase fw-bolder display-4 mb-lg-4 mb-2">
-              Studio Articulation
+            <div className="text-red text-uppercase fw-bolder display-3 mb-lg-4 mb-2 d-xxl-block d-none">
+            Studio Articulation
+            </div>{" "}
+            <div className="text-red text-uppercase fw-bolder display-5 mb-lg-4 mb-2 d-xxl-none d-block">
+            Studio Articulation
             </div>
-            <div className="display-6 mb-4 fw-bolder text-dark text-uppercase d-lg-block d-none">
+            <div className="display-6 mb-4 fw-bolder text-dark text-uppercase d-xxl-block d-none">
               Where Creativity and Meaning Converge
             </div>{" "}
-            <div className="fs-6 mb-2 fw-bolder text-dark text-uppercase  d-lg-none d-block">
+            <div className="fs-6 mb-2 fw-bolder text-dark text-uppercase  d-xxl-none d-block">
               Where Creativity and Meaning Converge
             </div>
             <p className="fs-5 mx-auto  mb-4 text-secondary opacity- fw-lighter d-lg-block d-none">

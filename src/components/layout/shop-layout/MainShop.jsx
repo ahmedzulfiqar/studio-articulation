@@ -16,10 +16,10 @@ function MainShop() {
       >
         <div className="col-lg-8 col-12 p-0 ">
           <div className="row m-0 ">
-            <div className="col-lg-6 col-12 p-0  text-lg-start text-center display-2 text-uppercase fw-bolder d-lg-block d-none">
+            <div className="col-lg-6 col-12 p-0  text-lg-start text-center display-2 text-uppercase fw-bolder d-xxl-block d-none">
               architectural <span className="text-red">resource Shop</span>
             </div>{" "}
-            <div className="col-lg-6 col-12 p-0 text-lg-start text-center display-5 text-uppercase fw-bolder d-lg-none d-block">
+            <div className="col-lg-6 col-12 p-0 text-lg-start text-center display-5 text-uppercase fw-bolder d-xxl-none d-block">
               architectural <span className="text-red">resource Shop</span>
             </div>
           </div>

@@ -15,7 +15,7 @@ function Mainhome() {
     >
       <motion.img
         src={img2}
-        className="position-absolute d-xl-block d-none"
+        className="position-absolute d-xxl-block d-none"
         alt=""
         style={{
           width: "8vw",
@@ -37,7 +37,7 @@ function Mainhome() {
       />
       <motion.img
         src={img2}
-        className="position-absolute d-xl-block d-none"
+        className="position-absolute d-xxl-block d-none"
         alt=""
         style={{
           width: "8vw",
@@ -64,7 +64,7 @@ function Mainhome() {
         </div>
       </div>
       <div className="container d-lg-none d-block ">
-        <div className="row m-0 h-100 justify-content-between">
+        <div className="row m-0 h-100  justify-content-between">
           <Mainhometext />
           <Mainhomeimage svg={<Svg1 />} />
         </div>

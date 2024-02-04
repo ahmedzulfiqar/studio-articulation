@@ -5,20 +5,18 @@ function Abouthomeetext() {
   return (
     <motion.div className="col-lg-6  justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center">
       <div className="p-0 w-100">
-        <div className="display-5 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-lg-block d-none">
-          About Me <br />
+        <div className="display-5  ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
           <span className="text-purple text-uppercase display-4 fw-bolder">
             Ritika Rathore
           </span>
         </div>
-        <div className="display-6 ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-lg-none d-block text-uppercase">
-          About Me <br />
+        <div className="display-6   ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-xxl-none d-block text-uppercase">
           <span className="text-purple text-uppercase display-5 fw-bolder">
             {" "}
             Ritika Rathore
           </span>
         </div>
-        <p className="ps-1  text-black opacity-75">
+        <p className="ps-1  text-black small opacity-75">
           Driven by a deep understanding of the built environment and a keen eye
           for detail,
           <span className="d-lg-inline d-none">
@@ -27,7 +25,7 @@ function Abouthomeetext() {
             narratives.
           </span>
         </p>
-        <p className="ps-1 d-lg-block d-none text-black opacity-75">
+        <p className="ps-1 d-lg-block small d-none text-black opacity-75">
           With a background in Urban Design from the University of Westminster,
           I'm well-versed in the complexities of the design process. My
           experience working with clients has given me a deep appreciation for
