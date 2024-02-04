@@ -1,5 +1,5 @@
 import React from "react";
-import person from "../../media/unnamed.jpg";
+import person from "../../media/unnamed-min.jpg";
 import { motion } from "framer-motion";
 function Mainabout() {
   return (
