@@ -16,7 +16,7 @@ import {
 } from "swiper/modules";
 function Mainport() {
   return (
-    <motion.div
+    <div
       className="col-12 m-0  py-0  mt-lg-5 pt-lg-5 overflow-hidden hello px-0 "
       viewport={{ once: true }}
       initial={{ opacity: 0 }}
@@ -206,7 +206,7 @@ function Mainport() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 export default Mainport;

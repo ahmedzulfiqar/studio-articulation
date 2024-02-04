@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 function Mainhometext() {
   return (
-    <motion.div
+    <div
       className="col-lg-6 justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center"
       viewport={{ once: true }}
       initial="hidden"
@@ -42,7 +42,7 @@ function Mainhometext() {
           </Link>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

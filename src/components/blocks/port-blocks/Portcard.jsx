@@ -6,7 +6,7 @@ function Portcard({ data }) {
   const [load, setLoad] = useState(true);
 
   return (
-    <motion.div className="card p-0 my-2 shadow-sm overflow-hidden border border-4 rounded-3 Portcard">
+    <div className="card p-0 my-2 shadow-sm overflow-hidden border border-4 rounded-3 Portcard">
       <img
         src={data.img}
         alt=""
@@ -15,7 +15,7 @@ function Portcard({ data }) {
         onLoad={() => setLoad(false)}
       />
       {load && (
-        <motion.div
+        <div
           className="coverlay bg-black w-100"
           style={{ height: "40vh" }}
         >
@@ -24,10 +24,13 @@ function Portcard({ data }) {
             alt=""
             className="img-fluid"
           />
-        </motion.div>
+        </div>
       )}
-    </motion.div>
+    </div>
   );
+
+
+  
 }
 
 export default Portcard;

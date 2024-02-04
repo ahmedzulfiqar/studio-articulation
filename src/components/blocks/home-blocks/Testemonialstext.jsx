@@ -62,7 +62,7 @@ function Testemonialstext() {
   ];
 
   return (
-    <motion.div
+    <div
       className="col-lg-10 justify-content-center  ps-lg-0  col-12 p-0 d-flex align-items-center text-lg-center text-center"
       viewport={{ once: true }}
       initial="hidden"
@@ -125,7 +125,7 @@ function Testemonialstext() {
           </div>
         </Link>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

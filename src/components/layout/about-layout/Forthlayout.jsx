@@ -10,7 +10,7 @@ function Forthlayout() {
     >
       <div className="container h-100  py-0">
         <div className="row m-0 py-0 h-100 d-flex align-items-center justify-content-between">
-          <motion.div
+          <div
             className="col-lg-5 col-12 p-0   rounded-4 overflow-hidden order-lg-0 order-1"
             viewport={{ once: true }}
             initial="hidden"
@@ -25,8 +25,8 @@ function Forthlayout() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <img src={Svg6} className="img-fluid w-100" alt="" />
-          </motion.div>{" "}
-          <motion.div
+          </div>{" "}
+          <div
             className="col-lg-6 col-12 text-lg-start textx p-0 order-lg-0 order-0"
             viewport={{ once: true }}
             initial="hidden"
@@ -88,7 +88,7 @@ function Forthlayout() {
                 ></i>
               </span>
             </p>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>

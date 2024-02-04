@@ -5,7 +5,7 @@ function Shopcard({ data }) {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <motion.div
+    <div
       className="col-xl-3 col-lg-4 col-sm-6 col-12 py-lg-4 py-3 px-lg-3 px-0 overflow-visible bg-transparent shopcard"
       viewport={{ once: true }}
       initial="hidden"
@@ -89,7 +89,7 @@ function Shopcard({ data }) {
           </div>
         </div>
       </a>
-    </motion.div>
+    </div>
   );
 }
 

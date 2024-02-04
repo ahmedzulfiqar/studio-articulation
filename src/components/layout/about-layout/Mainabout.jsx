@@ -9,7 +9,7 @@ function Mainabout() {
     >
       <div className="container h-100">
         <div className="row m-0 py-0 h-100 d-flex align-items-center justify-content-between ">
-          <motion.div
+          <div
             className="col-lg-6 col-12 text-lg-start textx p-0"
             viewport={{ once: true }}
             initial="hidden"
@@ -71,8 +71,8 @@ function Mainabout() {
                 ></i>
               </span>
             </p>
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             className="col-lg-5 col-12 p-0 border-red border-5  rounded-4 overflow-hidden"
             viewport={{ once: true }}
             initial="hidden"
@@ -87,7 +87,7 @@ function Mainabout() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <img src={person} alt="" className="img-fluid" />
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>

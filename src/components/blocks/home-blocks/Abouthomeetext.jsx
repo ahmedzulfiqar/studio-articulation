@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Abouthomeetext() {
   return (
-    <motion.div className="col-lg-6  justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center">
+    <div className="col-lg-6  justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center">
       <div className="p-0 w-100">
         <div className="display-5  ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
           <span className="text-purple text-uppercase display-4 fw-bolder">
@@ -49,7 +49,7 @@ function Abouthomeetext() {
           </Link>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
