@@ -6,7 +6,7 @@ function Shopcard({ data }) {
 
   return (
     <motion.div
-      className="col-xl-3 col-lg-4 col-sm-6 col-12 py-lg-4 py-3 px-lg-3 px-0 overflow-visible bg-transparent shopcard"
+      className="col-xl-3 col-lg-4 col-sm-6 col-12 py-lg-4 py-3 px-lg-3 px-3 overflow-visible bg-transparent shopcard"
       viewport={{ once: true }}
       initial="hidden"
       whileInView="visible"
