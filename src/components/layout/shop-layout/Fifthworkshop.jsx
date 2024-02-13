@@ -29,10 +29,13 @@ function Fifthworkshop() {
             <div className="text-red text-uppercase   fw-bolder fs-2 mb-lg-2 mb-2 d-xxl-block d-none">
             Learn to create sheet composition like this
             </div>{" "}
+            <div className="text-red text-uppercase   fw-bolder fs-4 mb-lg-2 mb-0 d-xxl-none d-block">
+            Learn to create sheet composition like this
+            </div>{" "}
             <img
               src="https://static.wixstatic.com/media/de3556_59af17e2b7c6460a898cb980e704f9cd~mv2.png/v1/fill/w_1897,h_872,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/de3556_59af17e2b7c6460a898cb980e704f9cd~mv2.png"
               alt=""
-              className="img-fluid my-5"
+              className="img-fluid my-lg-5 my-4"
             />
             <div className="ps-xxl-1 pt-xxl-2">
               <a

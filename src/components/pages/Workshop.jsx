@@ -8,6 +8,8 @@ import Secondworkshop from "../layout/port-layout/Secondworkshop";
 import Thirdworkshop from "../layout/shop-layout/Thirdworkshop";
 import Forthworkshop from "../layout/shop-layout/Forthworkshop";
 import Fifthworkshop from "../layout/shop-layout/Fifthworkshop";
+import Sixthworkshop from "../layout/shop-layout/Sixthworkshop";
+import Lastworkshop from "../layout/shop-layout/Lastworkshop";
 function Workshop() {
   return (
     <div className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer ps-lg-0 ps-2">
@@ -16,7 +18,9 @@ function Workshop() {
       <Thirdworkshop />
       <Forthworkshop />
       <Fifthworkshop />
+      <Sixthworkshop />
       <Lastabout />
+      <Lastworkshop/>
       <Footerhome />
     </div>
   );

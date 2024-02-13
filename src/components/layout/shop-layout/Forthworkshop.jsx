@@ -34,7 +34,7 @@ function Forthworkshop() {
             </div>
             <div className="row m-0 justify-content-evenly pb-5 pt-3">
               <div className="col-lg-6 col-12 text-start align-self-center">
-                <div className="card rounded-4 px-lg-4 px-2 py-3 overflow-hidden  border shadow-sm">
+                <div className="card rounded-4 px-lg-4 px-2 py-3 overflow-hidden  border-0 shadow-sm">
                   <div className="fs-2 text-uppercase  py-3 fw-bolder">
                     Day 1
                   </div>
@@ -112,8 +112,8 @@ function Forthworkshop() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-6 col-12 text-start">
-                <div className="card rounded-4 px-lg-4 px-2 py-3 overflow-hidden  border shadow-sm">
+              <div className="col-lg-6 col-12 text-start mt-lg-0 mt-4">
+                <div className="card rounded-4 px-lg-4 px-2 py-3 overflow-hidden  border-0 shadow-sm">
                   <div className="fs-2 text-uppercase  py-3 fw-bolder">
                     Day 2
                   </div>
