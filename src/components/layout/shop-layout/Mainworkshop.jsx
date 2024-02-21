@@ -1,5 +1,5 @@
 import React from "react";
-import person from "../../media/unnamed-min.jpg";
+import person from "../../media/website-05.png";
 import { motion } from "framer-motion";
 function Mainworkshop() {
   return (
@@ -66,11 +66,9 @@ function Mainworkshop() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <img
-              src={
-                "https://static.wixstatic.com/media/de3556_df1a7bb5926d4ff390d1dda0823c20d1~mv2.jpg/v1/crop/x_675,y_0,w_10602,h_10736/fill/w_350,h_356,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/exploded%20axonometric%20house.jpg"
-              }
+              src={person}
               alt=""
-              className="img-fluid border-red border-5 my-lg-0 my-5 rounded-4 w-100"
+              className="img-fluid border-0 - my-lg-0 my-5 rounded-4 w-100"
             />
           </motion.div>
         </div>

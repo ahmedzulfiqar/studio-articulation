@@ -78,12 +78,12 @@ function Testemonialstext() {
     >
       <div className="p-0 w-100">
         <div className="display-2  px-5 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
-          What <span className="text-green">People</span> Say About Our{" "}
-          <span className="text-green"> Workshop</span>
+          What <span className="text-red">People</span> Say About Our{" "}
+          <span className="text-red"> Workshop</span>
         </div>
         <div className="display-6 ms-lg-1 mb-xxl-4 mb-3 px-lg-5 fw-bolder d-xxl-none d-block text-uppercase">
-          What <span className="text-green">People</span> Say About
-          <span className="text-green"> Our Workshop</span>
+          What <span className="text-red">People</span> Say About
+          <span className="text-red"> Our Workshop</span>
         </div>
         <Swiper
           className="my-xxl-5 my-lg-2 my-3 pt-lg-5"
@@ -117,10 +117,10 @@ function Testemonialstext() {
           })}
         </Swiper>
         <Link className="ps-lg-1 pt-lg-2" to="/workshop">
-          <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-green  border-0 fw-bolder shadow-sm">
+          <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-red  border-0 fw-bolder shadow-sm">
             Workshop
           </div>
-          <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-green  border-0 fw-bolder shadow-sm">
+          <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-red  border-0 fw-bolder shadow-sm">
             Workshop
           </div>
         </Link>

@@ -3,7 +3,7 @@ import Mainhometext from "../../blocks/home-blocks/Mainhometext";
 import Abouthomeimage from "../../blocks/home-blocks/Abouthomeimage";
 import Svg2 from "../../utilities/Svg2";
 import Abouthomeetext from "../../blocks/home-blocks/Abouthomeetext";
-import img2 from "../../media/bubble-gum-purple-gear-1.gif";
+import img2 from "../../media/dizzy-pink-letter.gif";
 import { motion } from "framer-motion";
 function Abouthome({ scrollRef }) {
   return (
@@ -17,7 +17,7 @@ function Abouthome({ scrollRef }) {
       }}
     >
       {" "}
-      <motion.img
+      {/*  <motion.img
         src={img2}
         className="position-absolute d-xxl-block d-none"
         alt=""
@@ -58,11 +58,11 @@ function Abouthome({ scrollRef }) {
           },
         }}
         transition={{ duration: 1, delay: 0.8 }}
-      />
+      />*/}
       <div className="container h-100 d-lg-block d-none ">
         <div className="row m-0 h-100  justify-content-between">
+          <Abouthomeetext scrollRef={scrollRef} />{" "}
           <Abouthomeimage svg={<Svg2 />} />
-          <Abouthomeetext scrollRef={scrollRef} />
         </div>
       </div>
       <div className="container d-lg-none d-block ">

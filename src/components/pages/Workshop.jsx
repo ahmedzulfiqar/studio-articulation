@@ -19,7 +19,6 @@ function Workshop() {
       <Forthworkshop />
       <Fifthworkshop />
       <Sixthworkshop />
-      <Lastabout />
       <Lastworkshop/>
       <Footerhome />
     </div>

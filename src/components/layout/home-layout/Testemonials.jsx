@@ -12,7 +12,7 @@ function Testemonials() {
       id="testimonials"
       style={{ scrollSnapAlign: "start" }}
     >
-      <motion.img
+      {/*  <motion.img
         src={img2}
         className="position-absolute d-xxl-block d-none"
         alt=""
@@ -53,7 +53,7 @@ function Testemonials() {
           },
         }}
         transition={{ duration: 1, delay: 0.8 }}
-      />
+      />*/}
       <div className="container h-100 d-lg-block d-none p-0">
         <div className="row m-0 h-100   justify-content-center">
           <Testemonialstext />

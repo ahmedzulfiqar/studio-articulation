@@ -20,13 +20,13 @@ function Workshophometext() {
     >
       <div className="p-0 w-100">
         <div className="display-2 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
-          Our <span className="text-blue"> Workshops</span>
+          Our <span className="text-red"> Workshops</span>
         </div>
         <div className="display-5 ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-xxl-none d-block text-uppercase">
-          Our <span className="text-blue"> Workshops</span>
+          Our <span className="text-red"> Workshops</span>
         </div>{" "}
         <div class="card border-0  shadow-sm my-4 ">
-          <div class="card-header border-0 text-blue d-lg-block d-none">
+          <div class="card-header border-0 text-red d-lg-block d-none">
             WORKSHOP
           </div>
           <div class="card-body ">
@@ -35,8 +35,10 @@ function Workshophometext() {
                 Interactive Adobe Illustrator Workshop
               </p>
               <p className="small text-dark opacity-75">
-                Interactive & Beginner Friendly Workshop, aiming to understand
-                ARCHITECTURAL CONCEPT DEVELOPMENT DIAGRAMS.
+                With a vision to expand and share the knowledge accumulated over
+                the years, Studio Articulation offers regular workshops,
+                ensuring your creativity never fades away. With our workshops,
+                you can master the art of architectural illustrations.
               </p>
               <footer class="blockquote-footer mt-1  d-lg-block d-none">
                 By <cite title="Source Title ">Studio Articulation</cite>
@@ -45,10 +47,10 @@ function Workshophometext() {
           </div>
         </div>
         <Link className="ps-lg-1 pt-lg-2" to="/workshop">
-          <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-blue  border-0 fw-bolder shadow-sm">
+          <div className="btn btn-lg d-md-inline-block d-none   text-light  bg-red  border-0 fw-bolder shadow-sm">
             Learn More
           </div>
-          <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-blue  border-0 fw-bolder shadow-sm">
+          <div className="btn btn-lg d-md-none d-inline-block  text-light  bg-red  border-0 fw-bolder shadow-sm">
             Learn More
           </div>
         </Link>

@@ -39,7 +39,12 @@ function Footerhome() {
           role="button"
           data-mdb-ripple-color="dark"
         >
-          <i class="fab fa-google"></i>
+          <img
+            src="https://th.bing.com/th/id/R.9172416bd8ef8c7e15b041f659756b3f?rik=dcySiNBpYXVnJQ&pid=ImgRaw&r=0"
+            alt=""
+            className="img-fluid"
+            style={{ width: "60px" }}
+          />
         </a>
 
         <a
@@ -67,8 +72,8 @@ function Footerhome() {
         <div class="container text-center p-0 ">
           <div className="row m-0 ">
             <div className="col-12 text-uppercase ">
-              <div className="display-5 fw-bolder text-dark d-md-block d-none">
-                <span className="text-"> Intrested </span> In{" "}
+              <div className="fs-5 fw-bolder text-dark d-md-block d-none">
+                <span className="text-"> Interested </span> In{" "}
                 <span className="text-"> Working </span>With{" "}
                 <span className="text-"> US </span> ?
               </div>
@@ -77,7 +82,7 @@ function Footerhome() {
                 <span className="text-"> Working </span>With{" "}
                 <span className="text-"> US </span> ?
               </div>
-              <div className="fs-5 my-2 mt-4 fw-bold text-red d-md-block d-none">
+              <div className="fs-5 my-2 mt-3 fw-bold text-red d-md-block d-none">
                 <a
                   href="https://mail.google.com/mail/u/0/#search/Joinstudioarticulation%40gmail.com"
                   target="_blank"
@@ -87,7 +92,7 @@ function Footerhome() {
                   Joinstudioarticulation@gmail.com
                 </a>
               </div>
-              <div className=" my-2 mt-4 fw-bold text-red d-md-none d-block small">
+              <div className=" my-2 mt-3 fw-bold text-red d-md-none d-block small">
                 <a
                   href="https://mail.google.com/mail/u/0/#search/Joinstudioarticulation%40gmail.com"
                   target="_blank"

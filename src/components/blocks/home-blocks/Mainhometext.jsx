@@ -35,11 +35,17 @@ function Mainhometext() {
         </div>
         <div className="ps-xxl-1 pt-xxl-2">
           <Link
-            className="btn btn-xxl mainbtn px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
-            to="/portfolio"
+            className="btn btn-xxl  border-red px-4 fw-bolder py-xxl-3 py-2 shadow-sm rounded-4"
+            to="/service"
           >
-            Portfolio
-          </Link>
+            Service
+          </Link>{" "}
+          <Link
+            className="btn btn-xxl mainbtn px-3 border-0 fw-bolder  py-xxl-3 py-2 shadow-sm rounded-4"
+            to="/shop"
+          >
+            Resources
+          </Link>{" "}
         </div>
       </div>
     </motion.div>

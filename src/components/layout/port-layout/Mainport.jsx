@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import Portcard from "../../blocks/port-blocks/Portcard";
-import { Plans, concept, conceptdev, other, videodata } from "../../data/Portdata";
+import {
+  Plans,
+  concept,
+  conceptdev,
+  other,
+  videodata,
+} from "../../data/Portdata";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,7 +30,6 @@ function Mainport() {
       transition={{ duration: 1, delay: 1 }}
     >
       <div className="container ">
-        
         <div className="row m-0 py-0  d-flex align-items-center justify-content-center ">
           <div className="col-lg-10 col-12 text-center">
             <div className="display-2 mb-lg-3 mb-0 text-uppercase fw-bolder d-xxl-block d-none">
@@ -171,7 +176,7 @@ function Mainport() {
                 </Swiper>
               </div>
               <div className="col-12 display-6 text-dark fw-bolder my-lg-2">
-          <span className="text-BLACK"> OTHER</span>
+                <span className="text-BLACK"> OTHER</span>
               </div>
               <div className="col-lg-12 col-12 p-0">
                 <Swiper

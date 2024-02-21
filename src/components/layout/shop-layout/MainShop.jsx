@@ -8,10 +8,7 @@ function MainShop() {
       <div
         className="row m-0  justify-content-center align-items-center border"
         style={{
-          backgroundImage: `url(${pexl})`,
           height: "40vh",
-          backgroundSize: "100% 200%",
-          backgroundPosition: "bottom",
         }}
       >
         <div className="col-lg-8 col-12 p-0 ">

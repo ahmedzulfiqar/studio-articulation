@@ -11,7 +11,7 @@ function Porthome() {
       id="porthome"
       style={{ scrollSnapAlign: "start" }}
     >
-      <motion.img
+      {/*    <motion.img
         src={img2}
         className="position-absolute d-xxl-block d-none"
         alt=""
@@ -52,7 +52,7 @@ function Porthome() {
           },
         }}
         transition={{ duration: 1, delay: 0.8 }}
-      />
+      />*/}
       <div className="container h-100 d-lg-block d-none ">
         <div className="row m-0 h-100  justify-content-between">
           <Porthometext />

@@ -81,7 +81,7 @@ p {
   border: 1.5px solid var(--blue);
 }
 .border-red {
-  border: 2px solid var(--red);
+  border: 2px solid var(--red) !important;
 }
 .border-green {
   border: 1.5px solid var(--green);
