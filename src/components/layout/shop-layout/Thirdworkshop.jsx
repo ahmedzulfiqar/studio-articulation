@@ -26,10 +26,10 @@ function Thirdworkshop() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             {" "}
-            <div className="text-red text-uppercase   fw-bolder display-5 mb-lg-5 mb-2 d-xxl-block d-none">
+            <div className="text-orange text-uppercase   fw-bolder display-5 mb-lg-5 mb-2 d-xxl-block d-none">
               Who is this Course for?
             </div>{" "}
-            <div className="text-red text-uppercase fw-bolder display-6 mb-lg-4 mb-3 d-xxl-none d-block">
+            <div className="text-orange text-uppercase fw-bolder display-6 mb-lg-4 mb-3 d-xxl-none d-block">
               Who is this Course for?
             </div>
             <div className="row m-0 justify-content-evenly pb-5 pt-3">
@@ -60,7 +60,7 @@ function Thirdworkshop() {
             </div>
             <div className="ps-xxl-1 pt-xxl-2">
               <a
-                className="btn btn-xxl mainbtn px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
+                className="btn btn-xxl bg-orange text-light px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
                 href="https://www.fyiarch.com/pfd?fbclid=PAAaZGYWr-OR2U_iap6GquWRY2bVjuT4mw323JbpHuhtDO_tnjTovr85tP83s_aem_AdS2AIAs4vbikyElsDSO2HF39-nLymhQxgmaVtgfdbHTHuT1VdteI23F14aeMGaCT5w"
               >
                 Book Your Seat

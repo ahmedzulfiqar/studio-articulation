@@ -26,10 +26,10 @@ function Forthworkshop() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             {" "}
-            <div className="text-red text-uppercase   fw-bolder display-5 mb-lg-5 mb-2 d-xxl-block d-none">
+            <div className="text-orange text-uppercase   fw-bolder display-5 mb-lg-5 mb-2 d-xxl-block d-none">
               What you will learn?
             </div>{" "}
-            <div className="text-red text-uppercase fw-bolder display-6 mb-lg-4 mb-3 d-xxl-none d-block">
+            <div className="text-orange text-uppercase fw-bolder display-6 mb-lg-4 mb-3 d-xxl-none d-block">
               What you will learn?
             </div>
             <div className="row m-0 justify-content-evenly pb-5 pt-3">
@@ -40,7 +40,7 @@ function Forthworkshop() {
                   </div>
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Exploration of design principles such as grids, whitespace
@@ -48,49 +48,49 @@ function Forthworkshop() {
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Typefaces and fonts
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Understanding color theory and color palettes
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Discussion on pre-designed portfolio reviews
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Determining the optimal number of projects
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Curating a strategic project lineup for the portfolio
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Incorporating the design process for projects
                   </p>
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Enhancing drawings and diagrams to communicate ideas
@@ -98,14 +98,14 @@ function Forthworkshop() {
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Emphasizing the importance of graphics excessive text
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Where to find free design resources
@@ -119,7 +119,7 @@ function Forthworkshop() {
                   </div>
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Guiding principles for portfolio design, including
@@ -127,7 +127,7 @@ function Forthworkshop() {
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Aligning portfolio design with individual personality and
@@ -135,35 +135,35 @@ function Forthworkshop() {
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Creative ideas for cover page design
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Crafting visually appealing CV layouts.
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Designing a table of contents.
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Creating a checklist for each project.
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Defining the ideal number of pages for each project for a
@@ -171,21 +171,21 @@ function Forthworkshop() {
                   </p>
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Annotation tips for clear communication.
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Exploring diverse portfolio sheet layouts for projects.
                   </p>{" "}
                   <p>
                     <i
-                      class="fa fa-dot-circle text-red pe-2"
+                      class="fa fa-dot-circle text-orange pe-2"
                       aria-hidden="true"
                     ></i>{" "}
                     Showcasing mockup-style portfolios for a polished
@@ -196,7 +196,7 @@ function Forthworkshop() {
             </div>
             <div className="ps-xxl-1 pt-xxl-2">
               <a
-                className="btn btn-xxl mainbtn px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
+                className="btn btn-xxl bg-orange text-light px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
                 href="https://www.fyiarch.com/pfd?fbclid=PAAaZGYWr-OR2U_iap6GquWRY2bVjuT4mw323JbpHuhtDO_tnjTovr85tP83s_aem_AdS2AIAs4vbikyElsDSO2HF39-nLymhQxgmaVtgfdbHTHuT1VdteI23F14aeMGaCT5w"
               >
                 Book Your Seat

@@ -26,15 +26,15 @@ function Sixthworkshop() {
             transition={{ duration: 1, delay: 0.3 }}
           >
             {" "}
-            <div className="text-red text-uppercase   fw-bolder display-3 mb-lg-2 mb-2 d-xxl-block d-none">
+            <div className="text-orange text-uppercase   fw-bolder display-3 mb-lg-2 mb-2 d-xxl-block d-none">
               Get Free Resources
             </div>{" "}
-            <div className="text-red text-uppercase   fw-bolder fs-3 mb-lg-2 mb-2 d-xxl-none d-block">
+            <div className="text-orange text-uppercase   fw-bolder fs-3 mb-lg-2 mb-2 d-xxl-none d-block">
               Get Free Resources
             </div>{" "}
             <div className="row m-0 my-5">
               <div className="col-lg-4 col-12 py-3">
-                <div className="card border-red rounded-5 p-lg-4">
+                <div className="card border-orange rounded-5 p-lg-4">
                   <div className="fs-3 fw-bolder">
                   Textures pack    
                   </div>
@@ -46,7 +46,7 @@ function Sixthworkshop() {
                 </div>
               </div>{" "}
               <div className="col-lg-4 col-12  py-3">
-                <div className="card border-red rounded-5 p-lg-4">
+                <div className="card border-orange rounded-5 p-lg-4">
                   <div className="fs-3 fw-bolder">CV layout templates</div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ function Sixthworkshop() {
                 </div>
               </div>{" "}
               <div className="col-lg-4 col-12  py-3">
-                <div className="card border-red rounded-5 p-lg-4">
+                <div className="card border-orange rounded-5 p-lg-4">
                   <div className="fs-3 fw-bolder"> Pre composed sheet layouts</div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ function Sixthworkshop() {
                 </div>
               </div>{" "}
               <div className="col-lg-4 col-12  py-3">
-                <div className="card border-red rounded-5 p-lg-4">
+                <div className="card border-orange rounded-5 p-lg-4">
                   <div className="fs-3 fw-bolder">
                     Concept development practice files
                   </div>
@@ -82,7 +82,7 @@ function Sixthworkshop() {
                 </div>
               </div>{" "}
               <div className="col-lg-4 col-12  py-3">
-                <div className="card border-red rounded-5 p-lg-4">
+                <div className="card border-orange rounded-5 p-lg-4">
                   <div className="fs-3 fw-bolder">
                     Color palettes to enhance visual appeal
                   </div>
@@ -91,7 +91,7 @@ function Sixthworkshop() {
             </div>
             <div className="ps-xxl-1 pt-xxl-2">
               <a
-                className="btn btn-xxl mainbtn px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
+                className="btn btn-xxl bg-orange text-light px-4 border-0 fw-bolder py-xxl-3 py-2 shadow-sm"
                 href="https://www.fyiarch.com/pfd?fbclid=PAAaZGYWr-OR2U_iap6GquWRY2bVjuT4mw323JbpHuhtDO_tnjTovr85tP83s_aem_AdS2AIAs4vbikyElsDSO2HF39-nLymhQxgmaVtgfdbHTHuT1VdteI23F14aeMGaCT5w"
               >
                 Book Your Seat

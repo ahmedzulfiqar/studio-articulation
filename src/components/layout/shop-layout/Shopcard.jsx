@@ -60,7 +60,7 @@ function Shopcard({ data }) {
               <h5 className="card-title  col-10 p-0 text-start small fw-bold text-dark text-uppercase">
                 {data.name}
               </h5>
-              <div className="btn align-self-start col-2 text-center p-0  text-red  fw-bolder">
+              <div className="btn align-self-start col-2 text-center p-0  text-blue  fw-bolder">
                 {data.price !== "$0" ? data.price : "Free"}
               </div>
               <div className="col-12 px-0 mt-1 pb-0" style={{ height: "20px" }}>

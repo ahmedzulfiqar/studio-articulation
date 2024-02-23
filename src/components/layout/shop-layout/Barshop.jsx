@@ -55,7 +55,7 @@ function Barshop({ category, setcategory, inputval, setinputval }) {
               return (
                 <div
                   className={` ${
-                    i.category == category ? "fw-bolder text-red" : ""
+                    i.category == category ? "fw-bolder text-blue" : ""
                   }`}
                   style={{
                     width: "max-content",
@@ -80,7 +80,7 @@ function Barshop({ category, setcategory, inputval, setinputval }) {
                   onChange={(e) => setinputval(e.target.value)}
                 />
                 <div className="btn px-2 py-0 align-self-center">
-                  <i className="fa fa-search text-red" aria-hidden="true"></i>
+                  <i className="fa fa-search text-blue" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
