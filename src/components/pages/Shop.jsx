@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import MainShop from "../layout/shop-layout/MainShop";
 import Barshop from "../layout/shop-layout/Barshop";
 import Cardcovershop from "../layout/shop-layout/Cardcovershop";
+import Footerhome from "../layout/home-layout/Footerhome";
 
 function Shop() {
   const [category, setcategory] = useState("Vegetation");
@@ -22,6 +23,7 @@ function Shop() {
           inputval={inputval}
           setinputval={setinputval}
         />
+        <Footerhome />
       </div>
     </div>
   );

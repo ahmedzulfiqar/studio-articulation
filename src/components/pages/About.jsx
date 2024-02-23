@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="row vh-100 overflow-y-scroll overflow-x-hidden mx-0 position-relative homer ps-lg-0 ps-2">
       <Mainabout />
-    
+      <Footerhome />
     </div>
   );
 }
