@@ -1,10 +1,13 @@
 import React from "react";
 import Mainhomeimage from "../../blocks/home-blocks/Mainhomeimage";
 import Mainhometext from "../../blocks/home-blocks/Mainhometext";
-import img1 from "../../media/bubble-gum-pink-heart-with-highlight-1.gif";
-import img2 from "../../media/dizzy-pink-letter.gif";
-import Svg1 from "../../utilities/Svg1";
-import { motion } from "framer-motion";
+import Svg1 from "../../utilities/Svg2";
+import { Shopdata } from "../../data/Shopdata";
+import Shopcard from "../shop-layout/Shopcard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation, Autoplay } from "swiper/modules";
 function Mainhome() {
   return (
     <div
@@ -58,13 +61,13 @@ function Mainhome() {
         transition={{ duration: 1, delay: 0.8 }}
       />*/}
       <div className="container h-100 d-lg-block d-none ">
-        <div className="row m-0 h-100  justify-content-between">
+        <div className="row m-0  h-100 justify-content-between">
           <Mainhometext />
           <Mainhomeimage svg={<Svg1 />} />
         </div>
       </div>
       <div className="container d-lg-none d-block ">
-        <div className="row m-0 h-100  justify-content-between">
+        <div className="row m-0  justify-content-between">
           <Mainhometext />
           <Mainhomeimage svg={<Svg1 />} />
         </div>

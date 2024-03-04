@@ -8,7 +8,7 @@ import Testemonialstext from "../../blocks/home-blocks/Testemonialstext";
 function Testemonials() {
   return (
     <div
-      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 min-vh-75 home"
+      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4  min-vh-50 py-lg-0 pt-lg-5 py-5 my-lg-5 my-5 home d-flex justify-content-center align-items-center"
       id="testimonials"
       style={{ scrollSnapAlign: "start" }}
     >
@@ -60,7 +60,7 @@ function Testemonials() {
         </div>
       </div>
       <div className="container d-lg-none d-block ">
-        <div className="row m-0 h-100 justify-content-center">
+        <div className="row m-0 justify-content-center">
           <Testemonialstext />
         </div>
       </div>

@@ -18,7 +18,14 @@ function App() {
     <div className="App m-0 p-0">
       {loading ? (
         <div className="divs vh-100 vw-100 overflow-hidden d-flex align-items-center">
-          <ReactLoading color={"#e97ab4"} type="spinningBubbles" height={100} width={100} className="my-auto mx-auto"/>
+          <img
+            src={image}
+            alt=""
+            className="img-fluid mx-auto my-auto"
+            style={{
+              width: "20vw",
+            }}
+          />
         </div>
       ) : (
         <div className="row m-0">

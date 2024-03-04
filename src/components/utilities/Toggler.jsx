@@ -6,7 +6,7 @@ function Toggler({ open, setopen, classe }) {
       class={`hamburger  align-self-center d-lg-none d-block bg-transparent `}
       onChange={() => setopen(!open)}
     >
-      <input type="checkbox" />
+      <input type="checkbox" checked={open}/>
       <svg viewBox="0 0 32 32">
         <path
           class={`line line-top-bottom ${classe}`}

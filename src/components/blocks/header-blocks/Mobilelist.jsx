@@ -30,7 +30,7 @@ function Mobilelist({ open, setopen }) {
       variants={variants}
       transition={{ duration: 0.2, delay: 0 }}
     >
-      <MobileLinks />
+      <MobileLinks open={open} setopen={setopen}/>
       <div className="pt-2">
         <Button data={{ text: "Contact" }} />
       </div>

@@ -86,7 +86,7 @@ function Testemonialstext() {
           <span className="text-red"> Our Workshop</span>
         </div>
         <Swiper
-          className="my-xxl-5 my-lg-2 my-3 pt-lg-5"
+          className="my-xxl-5 my-lg-2 my-5 pt-lg-5"
           slidesPerView={1}
           spaceBetween={10}
           keyboard={{

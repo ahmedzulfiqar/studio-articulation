@@ -3,7 +3,7 @@ import React from "react";
 function Mainhomeimage({ svg }) {
   return (
     <motion.div
-      className="col-lg-6 px-lg-4 col-12  px-lg-0 px-3   d-flex align-self-center justify-content-lg-start mt-lg-0 mt-5  justify-content-center"
+      className="col-lg-6 px-lg-4    col-12   px-lg-0 px-5  mt-lg-0 mt-3  d-flex align-self-center justify-content-lg-start  justify-content-center"
       viewport={{ once: true }}
       initial="hidden"
       whileInView="visible"

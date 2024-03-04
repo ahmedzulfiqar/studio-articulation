@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Mainhometext() {
   return (
     <motion.div
-      className="col-lg-6 justify-content-center  ps-lg-5  col-12 p-0 d-flex align-items-center text-lg-start text-center"
+      className="col-lg-6 justify-content-center     col-12 p-0 d-flex align-items-center text-lg-start text-center"
       viewport={{ once: true }}
       initial="hidden"
       whileInView="visible"
@@ -29,19 +29,19 @@ function Mainhometext() {
           <span className="text-red">Architectural</span> Graphics And
           <span className="text-red"> Visualisation </span>studio
         </div>
-        <div className="display-5 ms-xxl-1 mb-xxl-4 mb-3 px-1 fw-bolder d-xxl-none d-block text-uppercase">
+        <div className="display-4 ms-xxl-1 mb-xxl-4 mb-3 px-1 fw-bolder d-xxl-none d-block text-uppercase">
           <span className="text-red">Architectural</span> Graphics And
           <span className="text-red"> Visualisation </span>studio
         </div>
         <div className="ps-xxl-1 pt-xxl-2">
           <Link
-            className="btn btn-xxl  border-red px-4 fw-bolder py-xxl-3 py-2 shadow-sm rounded-4"
+            className="btn btn-xxl  border-red px-4 fw-bolder py-xxl-3 py-2 shadow-sm rounded-2"
             to="/service"
           >
             Service
           </Link>{" "}
           <Link
-            className="btn btn-xxl mainbtn px-3 border-0 fw-bolder  py-xxl-3 py-2 shadow-sm rounded-4"
+            className="btn btn-xxl mainbtn px-3 border-0 fw-bolder  py-xxl-3 py-2 shadow-sm rounded-2"
             to="/shop"
           >
             Resources
