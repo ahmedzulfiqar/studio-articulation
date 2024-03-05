@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function Abouthome({ scrollRef }) {
   return (
     <div
-      className="col-12 p-0 mt-lg-5 pt-lg-0 pt-4 min-vh-75  home"
+      className="col-12 p-0 mt-lg-5  mt-0 pt-lg-0 pt-0 min-vh-75 "
       id="abouthome"
       data-cursor-color="#927abb"
       style={{
@@ -59,14 +59,14 @@ function Abouthome({ scrollRef }) {
         }}
         transition={{ duration: 1, delay: 0.8 }}
       />*/}
-      <div className="container h-100 d-lg-block d-none ">
+      <div className="container h-100  d-lg-block d-none ">
         <div className="row m-0 h-100  justify-content-between">
           <Abouthomeetext scrollRef={scrollRef} />{" "}
           <Abouthomeimage svg={<Svg2 />} />
         </div>
       </div>
-      <div className="container d-lg-none d-block ">
-        <div className="row m-0 justify-content-center align-items-start flex-sm-row">
+      <div className="container  p-0 mt-0 d-lg-none d-block ">
+        <div className="row m-0 justify-content-start align-items-start flex-sm-row">
           <Abouthomeetext />
           <Abouthomeimage svg={<Svg2 />} />
         </div>

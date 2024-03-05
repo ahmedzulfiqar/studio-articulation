@@ -73,6 +73,15 @@ import image72 from "../media/shopmedia/pro33/people in offices mokeup.jpg";
 import image73 from "../media/shopmedia/pro34/Postal package mockup.jpg";
 import image74 from "../media/shopmedia/pro34/MINIMALISTIC TREES 2.jpg";
 import image75 from "../media/shopmedia/pro34/MINIMALISTIC TREES.jpg";
+import image76 from "../media/shopmedia/pro35/IMG_0791.jpeg";
+import image77 from "../media/shopmedia/pro35/IMG_0792.jpeg";
+import image78 from "../media/shopmedia/pro36/IMG_0796.jpeg";
+import image79 from "../media/shopmedia/pro37/site plan essentials.jpg";
+import image80 from "../media/shopmedia/pro38/Casual people.png";
+import image81 from "../media/shopmedia/pro39/IMG_1039.jpeg";
+import image82 from "../media/shopmedia/pro39/IMG_1043.jpeg";
+import image83 from "../media/shopmedia/pro 40/IMG_1086.jpeg";
+import image84 from "../media/shopmedia/pro 40/IMG_1088.jpeg";
 const Shopdata = [
   {
     name: "Colorful illustrative trees pack 1",
@@ -1450,6 +1459,303 @@ const Shopdata = [
     category: "Vegetation",
     filetype: "ZIP file",
     images: [image73, image74, image75],
+  },
+  {
+    name: "ARCHITECTURE DIAGRAM ESSENTIALS",
+    price: "$8",
+    link: "https://studioarticulation.gumroad.com/l/nqtfz?layout=profile",
+    size: "77.8 MB",
+    description: (
+      <>
+        In the field of architecture, architecture diagramming is an essential
+        part of the design process. Understanding the topography, environment,
+        and existing conditions of a site is critical in creating a successful
+        design that fits the needs of the client and meets the constraints of
+        the location.
+        <br />
+        To aid in this process, a digital product that utilizes annotation,
+        signs, and symbols can be a valuable tool for architects and designers.
+        This product would consist of different types of vegetation, sun paths,
+        arrows, icons, scales, and color palettes, abr brushes, texture which
+        allow you to present your work more effectively in your next site
+        analysis presentation.
+        <br />
+        Overall, a digital product that utilizes annotation, signs, and symbols
+        for site analysis in architecture would be a valuable tool for designers
+        and architects. By providing a way to document and analyze site
+        conditions in a clear and organized way, this product could streamline
+        the design process and lead to more successful outcomes for clients and
+        users.
+        <br />
+        a pack containing an AI file and JPEG of more than 100+ architecture
+        annotations and symbols.
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        the pack comes following file format.
+        <br />
+        AI file
+        <br />
+        JPEG file
+        <br />
+        PNG files
+        <br />
+        Fonts
+        <br />
+        ABR brushes
+        <br />
+        textures png
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        Note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
+      </>
+    ),
+    category: "Project Resource Files",
+    filetype: "ZIP file",
+    images: [image76, image77],
+  },
+  {
+    name: "SKETCHY TREES FREEBIE",
+    price: "$0",
+    link: "https://studioarticulation.gumroad.com/l/nhijd?layout=profile",
+    size: "7.42 MB",
+    description: (
+      <>
+        Introducing our SKETCHY TREE PACK , designed specifically for
+        architecture students and related disciplines. This resource pack is an
+        invaluable asset that offers numerous benefits and enhances the creative
+        process in architectural design. SKETCHY TREES Pack empowers
+        architecture students to elevate their design presentations, foster
+        creativity, and develop a strong visual language. It offers convenience,
+        consistency, and a rich array of design possibilities, making it an
+        essential tool for those passionate about architectural illustration and
+        creating impactful designs.
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        the pack comes following file format.
+        <br />
+        AI FILE
+        <br />
+        JPEG FILE
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        Note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
+      </>
+    ),
+    category: "Vegetation",
+    filetype: "ZIP file",
+    images: [image78, image78],
+  },
+  {
+    name: "SKETCHY SITE ANALYSIS ANNOTATIONS PACK 2",
+    price: "$0",
+    link: "https://studioarticulation.gumroad.com/l/lxkhm?layout=profile",
+    size: "12.9 MB",
+    description: (
+      <>
+        Introducing our Sketchy Site Analysis Annotations Pack, the ultimate
+        tool for architecture students and professionals alike! This
+        comprehensive pack is designed to streamline the process of creating
+        architecture graphics by providing a range of symbols, annotations, and
+        arrows that are essential for effective site analysis.
+        <br />
+        Whether you're working on a project for class or tackling a real-world
+        architectural design, our annotations pack has you covered. With a
+        variety of symbols representing different elements such as trees,
+        buildings, roads, and more, you can easily convey key features of a site
+        with clarity and precision.
+        <br />
+        Our pack also includes a selection of arrows and directional markers,
+        allowing you to illustrate movement patterns, sight lines, and other
+        important spatial relationships within your site analysis. These arrows
+        are fully customizable, so you can adjust their size, color, and style
+        to suit your specific needs.
+        <br />
+        Available in AI, PNG, and JPEG formats, our annotations pack is
+        compatible with a range of design software, ensuring seamless
+        integration into your workflow. Whether you prefer to work in Adobe
+        Illustrator, Photoshop, or any other design tool, you can easily
+        incorporate our annotations into your graphics with ease.
+        <br />
+        Don't waste time creating site analysis graphics from scratch –
+        streamline your workflow with our Sketchy Site Analysis Annotations Pack
+        and bring your architectural designs to life with clarity and precision.
+      </>
+    ),
+    category: "Project Resource Files",
+    filetype: "ZIP file",
+    images: [image79, image79],
+  },
+  {
+    name: "Casual People Pack",
+    price: "$4",
+    link: "https://studioarticulation.gumroad.com/l/hdinn?layout=profile",
+    size: "6.41 MB",
+    description: (
+      <>
+        We are introducing our Vector-based casual people Pack, designed
+        specifically for architecture students and related disciplines. This
+        resource pack is an invaluable asset that offers numerous benefits and
+        enhances the creative process in architectural design. The Casual People
+        Pack empowers architecture students to elevate their design
+        presentations, foster creativity, and develop a strong visual language.
+        It offers convenience, consistency, and a rich array of design
+        possibilities, making it an essential tool for those passionate about
+        architectural illustration and creating impactful designs.
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        the pack comes in the following file format.
+        <br />
+        AI FILE
+        <br />
+        PNG FILE
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        Note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
+      </>
+    ),
+    category: "Humans",
+    filetype: "ZIP file",
+    images: [image80, image80],
+  },
+  {
+    name: "RESIDENTIAL FURNITURE KIT",
+    price: "$3",
+    link: "https://studioarticulation.gumroad.com/l/jlzdo?layout=profile",
+    size: "6.41 MB",
+    description: (
+      <>
+        Discover Studio Articulation's uniquely crafted digital solution
+        tailored for students and architects. Our CAD block collection offers a
+        diverse range of meticulously designed elements, from architectural
+        details to furniture pieces, aimed at enhancing workflow efficiency.
+        With formats including CAD blocks, PNGs, and Illustrator files, users
+        can seamlessly integrate our resources into their projects, enabling
+        smoother planning processes. Whether refining floor plans or adding
+        intricate details, our product ensures users can work with ease and
+        precision, fostering creativity and productivity in architectural
+        endeavors.
+        <br />
+        * The files are in a ZIP file. Make sure to update your Winrar or Winzip
+        to extract the pack.
+        <br />
+        If you have any questions/suggestions, send us an e-mail:
+        <br />
+        its.riti.rathore@gmail.com
+        <br />
+        the pack comes in the following file format.
+        <br />
+        AI FILE
+        <br />
+        PNG FILE
+        <br />
+        CAD BLOCKS
+        <br />
+        thank you for supporting the platform @STUDIO_ARTICULATION
+        <br />
+        Note: while using our preset you can give credit to us. if you publish
+        your work on Instagram or LinkedIn please tag us at @studio_articulation
+      </>
+    ),
+    category: "Furniture",
+    filetype: "ZIP file",
+    images: [image81, image82],
+  },
+  {
+    name: "ART OF ARCHITECTURE DIAGRAMMING by studio articulation",
+    price: "$25",
+    link: "https://studioarticulation.gumroad.com/l/eorqjh?layout=profile",
+    size: "46.2 MB",
+    description: (
+      <>
+        'Art of Architecture Diagramming' by Studio Articulation – your ultimate
+        guide to mastering the art of visual storytelling in design.
+        <br />
+        🎨 Beginner-Friendly: Perfect for newcomers to architectural graphics,
+        this eBook starts with the basics of Adobe Illustrator, tailored
+        specifically to the needs of architecture students.
+        <br />
+        🌈 Color Palettes & Fonts: Learn the secrets of selecting captivating
+        color schemes and fonts that enhance the visual impact of your diagrams,
+        ensuring your presentations pop with personality and professionalism.
+        <br />
+        ✏️ Drawing & Diagram Styles: Explore a plethora of drawing and diagram
+        styles, from concept and form development diagrams to sections,
+        elevations, site analysis, spatial relationships analysis, and more.
+        Each style is dissected and explained with clarity and enthusiasm.
+        <br />
+        📐 Practical Applications: Discover how to apply your newfound skills to
+        real-world scenarios, including site zoning diagrams, isometric views,
+        floor plan renders, and beyond. You'll be equipped to tackle any design
+        challenge with confidence and creativity.
+        <br />
+        🚀 Elevate Your Presentations: Whether you're gearing up for a critique,
+        presentation, or portfolio review, 'Art of Architecture Diagramming'
+        empowers you to communicate your design ideas with clarity, conviction,
+        and flair.
+        <br />
+        🔥 Unlock Your Creative Potential: Don't just showcase your designs –
+        make them unforgettable. With 'Art of Architecture Diagramming,' you'll
+        unleash your creativity and leave a lasting impression on professors,
+        peers, and potential clients alike.
+        <br />
+        📚 Your Essential Companion: Compact yet comprehensive, this eBook is
+        packed with practical tips, step-by-step tutorials, and inspiring
+        examples to fuel your architectural journey from novice to virtuoso.
+        <br />
+        Transform your design presentations from ordinary to extraordinary. Get
+        your hands on 'Art of Architecture Diagramming' today and embark on a
+        visual adventure that will shape your future in architecture!"
+        <br />
+        content
+        <br />
+        introductions to basics
+        <br />
+        colour theory & typeface
+        <br />
+        site analysis diagram
+        <br />
+        site zoning diagram
+        <br />
+        spatial relationship diagram
+        <br />
+        concept development diagram
+        <br />
+        floor plan render diagram
+        <br />
+        illustrative section
+        <br />
+        illustrative elevation
+        <br />
+        isometric view
+      </>
+    ),
+    category: "Project Resource Files",
+    filetype: "ZIP file",
+    images: [image84, image83],
   },
 ];
 const architecturalElements = [

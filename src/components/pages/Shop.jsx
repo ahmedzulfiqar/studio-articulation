@@ -23,7 +23,6 @@ function Shop() {
           inputval={inputval}
           setinputval={setinputval}
         />
-        <Footerhome />
       </div>
     </div>
   );

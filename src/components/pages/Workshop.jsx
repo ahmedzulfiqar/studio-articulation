@@ -20,7 +20,6 @@ function Workshop() {
       <Fifthworkshop />
       <Sixthworkshop />
       <Lastworkshop />
-      <Footerhome />
     </div>
   );
 }

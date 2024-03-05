@@ -7,13 +7,13 @@ function Abouthomeetext() {
       <div className="p-0 w-100">
         <div className="display-5  ms-lg-1 mb-lg-4 mb-3 fw-bolder d-xxl-block d-none">
           <span className="text-dark text-uppercase display-4 fw-bolder">
-            Ritika <span className="text-red">Rathore</span>
+            About <span className="text-red">Creator</span>
           </span>
         </div>
         <div className="display-6   ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-xxl-none d-block text-uppercase">
           <span className="text-dark text-uppercase display-5 fw-bolder">
             {" "}
-            Ritika <span className="text-red">Rathore</span>
+            About <span className="text-red">Creator</span>
           </span>
         </div>
         <div class="card border-0  shadow-sm my-4 ">
@@ -23,7 +23,7 @@ function Abouthomeetext() {
           <div class="card-body ">
             <blockquote class="blockquote m-0  ">
               <p className="text-uppercase fw-bolder fs-5 text-dark">
-                About Me
+              Ritika Rathore
               </p>
               <p className="small text-muted opacity-75 d-xxl-block d-none">
                 I'm Ritika Rathore, an architect and illustrator passionate

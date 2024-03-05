@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 function Shopcard2({ data }) {
   const [hovered, setHovered] = useState(false);
+  const [isComputer, setIsComputer] = useState(true);
+  const checkIsComputer = () => {
+    setIsComputer(window.innerWidth > 1024);
+  };
+  useLayoutEffect(() => {
+    checkIsComputer();
+    window.addEventListener("resize", checkIsComputer);
+    return () => window.removeEventListener("resize", checkIsComputer);
+  }, []);
 
   return (
     <motion.div
@@ -37,7 +46,7 @@ function Shopcard2({ data }) {
             transition={{ duration: 0.5 }}
             style={{
               width: hovered ? 0 : "100%",
-              height: hovered ? 0 : "20vh",
+              height: hovered ? 0 : isComputer ? "20vh" : "auto",
             }}
           />
           <motion.img

@@ -6,7 +6,6 @@ function Portfolio() {
   return (
     <div className="row mx-0 position-relative">
       <Mainport />
-      <Footerhome />
     </div>
   );
 }

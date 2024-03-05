@@ -44,12 +44,12 @@ function Contact() {
             >
               <div className="p-0 w-100">
                 <div className="display-2 ms-lg-1 mb-lg-4 mb-3 fw-bolder d-lg-block d-none">
-                  Want To <span className="text-red">Work</span> With
+                  Contact
                   <span className="text-red"> us </span>
                 </div>
                 <div className="display-5 ms-lg-1 mb-lg-4 mb-3 px-1 fw-bolder d-lg-none d-block text-uppercase">
-                  <span className="text-red">Architectural</span> Graphics And
-                  <span className="text-red"> Visualisation </span>studio
+                  Contact
+                  <span className="text-red"> us </span>
                 </div>
                 <div className="ms-lg-3 fs-3">
                   <span className="fw-bolder text-red">Email Us At : </span>
@@ -64,6 +64,68 @@ function Contact() {
                     Joinstudioarticulation@gmail.com
                   </a>
                 </div>
+                <div className="ms-lg-3 fs-3 mt-4">
+                  <span className="fw-bolder text-red">Visit Us At : </span>
+                </div>
+                <section class="py-2  text-start">
+                  
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://in.pinterest.com/rathoreritu91111/"
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.behance.net/ritikarathore"
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-behance"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://studioarticulation.gumroad.com/
+          "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <img
+            src="https://th.bing.com/th/id/R.9172416bd8ef8c7e15b041f659756b3f?rik=dcySiNBpYXVnJQ&pid=ImgRaw&r=0"
+            alt=""
+            className="img-fluid"
+            style={{ width: "60px" }}
+          />
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.instagram.com/studio_articulation/?hl=en
+          "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://in.linkedin.com/in/ar-ritika-rathore-b5908a1a5 "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </section>
               </div>
             </motion.div>
           </div>
@@ -109,6 +171,7 @@ function Contact() {
                   Want To <span className="text-red">Work</span> With
                   <span className="text-red"> us </span>
                 </div>
+
                 <div className="ms-lg-3 small">
                   <span className="fw-bolder text-red">Email Us At : </span>
                   <br />
@@ -122,12 +185,76 @@ function Contact() {
                     Joinstudioarticulation@gmail.com
                   </a>
                 </div>
+                <div className="ms-lg-3 small mt-4">
+                  <span className="fw-bolder text-red">Visit Us At : </span>
+                </div>
+                <section class="py-2  text-center">
+                  
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://in.pinterest.com/rathoreritu91111/"
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.behance.net/ritikarathore"
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-behance"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://studioarticulation.gumroad.com/
+          "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <img
+            src="https://th.bing.com/th/id/R.9172416bd8ef8c7e15b041f659756b3f?rik=dcySiNBpYXVnJQ&pid=ImgRaw&r=0"
+            alt=""
+            className="img-fluid"
+            style={{ width: "60px" }}
+          />
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://www.instagram.com/studio_articulation/?hl=en
+          "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="https://in.linkedin.com/in/ar-ritika-rathore-b5908a1a5 "
+          role="button"
+          data-mdb-ripple-color="dark"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </section>
               </div>
             </motion.div>
+            
           </div>
         </div>
-      </div>
       <Footerhome />
+
+      </div>
     </>
   );
 }

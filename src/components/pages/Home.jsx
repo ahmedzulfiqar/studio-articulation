@@ -98,8 +98,8 @@ function Home({ setclasse }) {
         </div>
       </div>
       <Porthome />
-      <Workshophome /> <Testemonials />
-      <Footerhome />
+      <Workshophome />
+      <Testemonials />
     </div>
   );
 }

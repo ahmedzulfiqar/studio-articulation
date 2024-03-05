@@ -1,17 +1,13 @@
 import React from "react";
 import Mainhomeimage from "../../blocks/home-blocks/Mainhomeimage";
 import Mainhometext from "../../blocks/home-blocks/Mainhometext";
-import Svg1 from "../../utilities/Svg2";
-import { Shopdata } from "../../data/Shopdata";
-import Shopcard from "../shop-layout/Shopcard";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Svg1 from "../../utilities/Svg1";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation, Autoplay } from "swiper/modules";
 function Mainhome() {
   return (
     <div
-      className="col-12 p-0 mt-lg-0 pt-lg-0 pt-4 min-vh-75 home "
+      className="col-12 p-0 mt-lg-0  pt-lg-0 pt-4 min-vh-75 home "
       data-cursor-color="#e97ab4"
       id="mainhome"
       style={{ scrollSnapAlign: "start" }}

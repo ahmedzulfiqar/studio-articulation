@@ -7,6 +7,7 @@ import Portfolio from "../pages/Portfolio";
 import Shop from "../pages/Shop";
 import Workshop from "../pages/Workshop";
 import Contact from "../pages/Contact";
+import Service from "../pages/Service";
 function RouterFiles() {
   const [classe, setclasse] = useState("");
   return (
@@ -20,6 +21,7 @@ function RouterFiles() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/workshop" element={<Workshop />} />
+        <Route path="/service" element={<Service />} />
       </Routes>
     </div>
   );
