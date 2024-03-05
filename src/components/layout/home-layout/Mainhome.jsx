@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 function Mainhome() {
   return (
     <div
-      className="col-12 p-0 mt-lg-0  pt-lg-0 pt-4 min-vh-75 home "
+      className="col-12 p-0 mt-lg-0  pt-lg-0 pt-4 min-vh-75  home "
       data-cursor-color="#e97ab4"
       id="mainhome"
       style={{ scrollSnapAlign: "start" }}
@@ -62,10 +62,14 @@ function Mainhome() {
           <Mainhomeimage svg={<Svg1 />} />
         </div>
       </div>
-      <div className="container d-lg-none d-block ">
-        <div className="row m-0  justify-content-between">
-          <Mainhometext />
-          <Mainhomeimage svg={<Svg1 />} />
+      <div className="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div className="row m-0">
+          <div className="col-12 text-center position-relative z-3 ">
+            <Mainhometext />
+          </div>
+          <div className="col-12 text-center position-relative z-0">
+            <Mainhomeimage svg={<Svg1 />} />
+          </div>
         </div>
       </div>
     </div>

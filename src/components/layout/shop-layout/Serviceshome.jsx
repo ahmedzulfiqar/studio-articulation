@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 function Serviceshome() {
   return (
     <div
-      className="col-12 m-0  py-0  mt-lg-0 overflow-hidden home px-0 "
-      style={{ scrollSnapAlign: "center", minHeight: "75vh" }}
+      className="col-12 m-0  py-0  mt-lg-0 home px-0 "
     >
       <div className="container h-100">
         <div className="row m-0 py-0 h-100 d-flex align-items-center justify-content-between ">

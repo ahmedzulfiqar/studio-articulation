@@ -65,10 +65,14 @@ function Abouthome({ scrollRef }) {
           <Abouthomeimage svg={<Svg2 />} />
         </div>
       </div>
-      <div className="container  p-0 mt-0 d-lg-none d-block ">
-        <div className="row m-0 justify-content-start align-items-start flex-sm-row">
-          <Abouthomeetext />
-          <Abouthomeimage svg={<Svg2 />} />
+      <div className="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div className="row m-0">
+          <div className="col-12 text-center position-relative z-3 ">
+            <Abouthomeetext />
+          </div>
+          <div className="col-12 text-center position-relative z-0">
+            <Abouthomeimage svg={<Svg2 />} />
+          </div>
         </div>
       </div>
     </div>

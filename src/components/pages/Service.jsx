@@ -17,11 +17,10 @@ import img13 from "../media/portfoliomedia/15.jpg";
 import Footerhome from "../layout/home-layout/Footerhome";
 function Service({ scrollRef }) {
   return (
-    <div className="row vh-100 overflow-y-scroll mt-5  pt-lg-5 overflow-x-hidden mx-0 position-relative homer ps-lg-0 ps-2">
+    <div className="row   mt-5  pt-lg-5 overflow-x-hidden mx-0 position-relative homer ps-lg-0 ps-2">
       <Serviceshome />
       <div
         className="col-12 m-0  py-0  mt-lg-5 pt-lg-5  home px-0 "
-        style={{ scrollSnapAlign: "center", minHeight: "100vh" }}
       >
         <div className="container h-100">
           <div className="row m-0 py-0 h-100 d-flex align-items-center justify-content-center ">

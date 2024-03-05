@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Mainhometext() {
   return (
     <motion.div
-      className="col-lg-6 justify-content-center     col-12 p-0 d-flex align-items-center text-lg-start text-center"
+      className="col-lg-6 justify-content-center      col-12 p-0 d-flex align-items-center text-lg-start text-center"
       viewport={{ once: true }}
       initial="hidden"
       whileInView="visible"

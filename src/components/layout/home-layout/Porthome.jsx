@@ -59,10 +59,14 @@ function Porthome() {
           <Porthomeimage svg={<Svg5 />} />
         </div>
       </div>
-      <div className="container d-lg-none d-block ">
-        <div className="row m-0 h-100 justify-content-between">
-          <Porthometext />
-          <Porthomeimage svg={<Svg5 />} />
+      <div className="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div className="row m-0">
+          <div className="col-12 text-center position-relative z-3 ">
+            <Porthometext />
+          </div>
+          <div className="col-12 text-center position-relative z-0">
+            <Porthomeimage svg={<Svg5 />} />
+          </div>
         </div>
       </div>
     </div>

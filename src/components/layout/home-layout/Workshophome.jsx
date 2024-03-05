@@ -46,10 +46,14 @@ function Workshophome() {
           <Workshophomeimage svg={<Svg3 />} />
         </div>
       </div>
-      <div className="container d-lg-none d-block ">
-        <div className="row m-0 h-100 justify-content-between">
-          <Workshophometext />
-          <Workshophomeimage svg={<Svg3 />} />
+      <div className="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div className="row m-0">
+          <div className="col-12 text-center position-relative z-3 ">
+            <Workshophometext />
+          </div>
+          <div className="col-12 text-center position-relative z-0">
+            <Workshophomeimage svg={<Svg3 />} />
+          </div>
         </div>
       </div>
     </div>
