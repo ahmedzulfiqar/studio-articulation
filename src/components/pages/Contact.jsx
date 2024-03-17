@@ -55,13 +55,13 @@ function Contact() {
                   <span className="fw-bolder text-red">Email Us At : </span>
                   <br />
                   <a
-                    href="https://mail.google.com/mail/u/0/#search/Joinstudioarticulation%40gmail.com"
+                    href="https://mail.google.com/mail/u/0/#search/studioarticulation%40gmail.com"
                     target="_blank"
                     className="text-dark small"
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    Joinstudioarticulation@gmail.com
+                    studioarticulation@gmail.com
                   </a>
                 </div>
                 <div className="ms-lg-3 fs-3 mt-4">
@@ -175,13 +175,13 @@ function Contact() {
                   <span className="fw-bolder text-red">Email Us At : </span>
                   <br />
                   <a
-                    href="https://mail.google.com/mail/u/0/#search/Joinstudioarticulation%40gmail.com"
+                    href="https://mail.google.com/mail/u/0/#search/studioarticulation%40gmail.com"
                     target="_blank"
                     className="text-dark small"
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    Joinstudioarticulation@gmail.com
+                    studioarticulation@gmail.com
                   </a>
                 </div>
                 <div className="ms-lg-3 small mt-4">
